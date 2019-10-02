@@ -1,25 +1,71 @@
+body nav{
+    background-color: #9AC00F;
 
 }
+
 nav{
     background-color:black
-    height: 60px;
+}
+
+nav div  img{
+    height: 80px;
+    width: 80px;
+
+}
+nav ul li a{
+    font-size: 18pt;
+}
+}
+.carrousel{
+    height: 500px;
+    width: 80%;
+    background-color: #9AC00F;
+}
+
+.barra nav ul li a{
+    font-size: 13pt;
+}
+
+
+.noticias{
+    overflow:hidden;
+
+}
+
+.noticias div {
+    border: #9AC00F 1px solid;
+  padding: 10px;
+  margin: 20px;
+  box-sizing: border-box 100px;
+  width:400px;
+  height: 400px;
+  float:left;
+  margin-left:2.5%;
+box-sizing:border-box;
+font-size: 15pt;
+  }
+
+.noticias div img{
+    height: 40px;
+    width: 40px;
+}
+#post{
+    width: 200px;
+    height: 100px;
+}
+
+#post img{
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+
+}
+.pie nav ul li a{
+    font-size: 13pt;
     
 }
 
-nav ul{
-    list-style-type: none;
-}
-
-
-.carrousel{
-    background-color: gray;
-    height: 240px;
-}
-
-.noticias{
-    height: 400px;
-    background-color: aqua;
-}
 
 #encabezado-registro{
     background-color: #9AC00F;

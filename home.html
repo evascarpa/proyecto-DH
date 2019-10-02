@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Home</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>   
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos\estilosproyecto.css">
 </head>
+
+
 <body>
     <header> <div class="container-fluid">
 
@@ -16,44 +21,170 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-              <a class="navbar-brand" href="#">NUESTRA RED</a>
+              <a class="navbar-brand" href="https://www.bancoprovincia.com.ar/web"><abbr title="www.BancoProvincia.com.ar"><img src="imagenes/logo2.png"></abbr></a>
               <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Inicia Sesión <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="registro.html">Inicia Sesión <span class="sr-only">(current)</span></a>
                   </li>
               </ul>
               <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="fotos/personas/grupos">
+                <input class="form-control mr-sm-2" type="fotos/personas/grupos" placeholder="fotos/personas/grupos" aria-label="fotos/personas/grupos">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
               </form>
             </div>
           </nav>
      </header>
              
-
-        <div class="row ">        
-
-            <div class="col-md-12 carrousel">
-                carrousel
-            </div>
-
-        </div>
+     <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
         
+        <div class="carrousel">        
+
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="imagenes/image-1.jpg.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="imagenes/image-2.jpg.jpg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="imagenes/image-3.jpg.jpg" alt="Third slide">
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div> 
+        <div class="col-sm-2"></div> 
+    </div>
+
+    <nav class="barra">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.com"><strong>POPULARES</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.com">Fotos <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.com">Citas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.com">Gifs</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Selección de equipo
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="index.com">Audios</a>
+                <a class="dropdown-item" href="index.com">Videos</a>
+                <a class="dropdown-item" href="index.com">Chats</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      </nav>
+       
         <main class="row noticias">
-            <div class="col-md-offset-2 col-md-4">
-                posteos de usuarios estilo muro
+            
+            <div>
+              <img src="imagenes/01.jpg">
+              Mariana Azcurra 
+              <a href="index.com">Seguir</a>
+              <post id="post"><img src="imagenes/frase01.jpg"></post>
             </div>
-            <div class="col-md-offset-2 col-md-4"></div>
-            <div class="col-md-offset-2 col-md-4"></div>
-            <div class="col-md-offset-2 col-md-4"></div>
-            <div class="col-md-offset-2 col-md-4"></div>
-            <div class="col-md-offset-2 col-md-4"></div>
-            <div class="col-md-offset-2 col-md-4"></div>
-            <div class="col-md-offset-2 col-md-4"></div>
-            <div class="col-md-offset-2 col-md-4"></div>
+            <div>
+                <img src="imagenes/02.jpg">
+                Fulana del Valle
+              <a href="index.com">Seguir</a>
+              <post id="post"><img src="imagenes/frase02.jpg"></post>
+            </div>
+            <div>
+                <img src="imagenes/03.jpg">
+                Ines Garcia
+              <a href="index.com">Seguir</a>
+              <post id="post"><img src="imagenes/frase03.jpg"></post>
+            </div>
+            <div>
+                <img src="imagenes/04.jpg">
+                Fabian Franco
+              <a href="index.com">Seguir</a>
+              <post id="post"><img src="imagenes/frase04.jpg"></post>
+            </div>
+            <div>
+                <img src="imagenes/05.jpg">
+                Estaban Etche
+              <a href="index.com">Seguir</a>
+              <post id="post"><img src="imagenes/frase05.jpg"></post>
+            </div>
+            <div>
+                <img src="imagenes/06.jpg">
+                Maria Paz
+              <a href="index.com">Seguir</a>
+              <post id="post"><img src="imagenes/frase06.jpg"></post>
+            </div>
+            </div> 
         </main>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>   
+
+        <footer>
+            <nav class="pie">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="index.com"><strong>Información del Sitio</strong></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="index.com">Forma parte del equipo <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="index.com">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="index.com">Desarrolladores</a>
+                        </li>
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="index.com">Reglas de Uso <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="index.com">Privacidad</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="index.com">Condiciones</a>
+                            </li>
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                  <a class="nav-link" href="index.com">Ayuda <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="index.com">Foro de ayuda</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="index.com">Contacto</a>
+                                </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Español
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="index.com">Deutsch</a>
+                            <a class="dropdown-item" href="index.com">English</a>
+                            <a class="dropdown-item" href="index.com">Italiano</a>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+              </nav>
+        </footer>
+       
  </body>
 </html>       
