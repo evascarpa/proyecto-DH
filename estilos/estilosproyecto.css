@@ -15,3 +15,32 @@ nav{
     height: 400px;
     background-color: aqua;
 }
+
+#encabezado-registro{
+    background-color: #9AC00F;
+    height: 132px;
+}
+
+header p{
+    display: inline;
+}
+
+.formulario .row{
+background-color: #9AC00F;
+border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
+margin-top: 100px;
+padding: 15px;
+justify-content: center;
+text-align: right;     
+}
+
+header .registro div img{
+max-width:100%; 
+height:auto;
+
+}
+
+
