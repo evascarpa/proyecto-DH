@@ -1,9 +1,17 @@
+.{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+}
 nav{
-    background-color: blue;
-    height: 80px;
+    background-color:black
+    height: 60px;
     
 }
 
+nav ul{
+    list-style-type: none;
+}
 
 
 .carrousel{
