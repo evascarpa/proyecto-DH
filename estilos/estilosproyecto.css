@@ -1,4 +1,4 @@
-body nav , .contenedorLogin{
+body nav {
     background-color: #9AC00F;
 
 }
@@ -94,22 +94,3 @@ height:auto;
 
 }
 
-
-/*Aca empieza el CSS del login*/
- 
-.img-responsive{
-    width: 60%;
-    margin-right: 20%;
-    margin-left: 20%;
-}
-#exampleInputEmail1 , #exampleInputPassword1{
-    width: 60%;
-}
-.divLogin{
-    display: flex;
-}
-
-.divLogin2{
-    justify-content: center;
-
-}
