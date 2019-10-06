@@ -1,13 +1,12 @@
 body nav {
     background-color: #9AC00F;
-
 }
 
 nav{
-    background-color:black
+    background-color:black;
 }
 
-nav div  img{
+nav div img{
     height: 80px;
     width: 80px;
 
@@ -15,7 +14,7 @@ nav div  img{
 nav ul li a{
     font-size: 18pt;
 }
-}
+
 .carrousel{
     height: 500px;
     width: 80%;
@@ -33,7 +32,7 @@ nav ul li a{
 }
 
 .noticias div {
-    border: #9AC00F 1px solid;
+  border: #9AC00F 1px solid;
   padding: 10px;
   margin: 20px;
   box-sizing: border-box 100px;
@@ -41,8 +40,8 @@ nav ul li a{
   height: 400px;
   float:left;
   margin-left:2.5%;
-box-sizing:border-box;
-font-size: 15pt;
+  box-sizing:border-box;
+  font-size: 15pt;
   }
 
 .noticias div img{
@@ -63,7 +62,7 @@ font-size: 15pt;
 }
 .pie nav ul li a{
     font-size: 13pt;
-    
+
 }
 
 
@@ -85,12 +84,87 @@ border: 0px solid #000000;
 margin-top: 100px;
 padding: 15px;
 justify-content: center;
-text-align: right;     
+text-align: right;
 }
 
 header .registro div img{
-max-width:100%; 
+max-width:100%;
 height:auto;
 
 }
 
+
+/*Aca empieza el CSS del login*/
+
+.img-responsive{
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+#exampleInputEmail1 , #exampleInputPassword1{
+    width: 60%;
+}
+.divLogin{
+    display: flex;
+}
+
+.divLogin2{
+    justify-content: center;
+}
+
+
+/*-------------Aca empieza el CSS del FAQ---------------------*/
+
+body .flecha{
+  text-align: right;
+}
+.container{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.row{
+  background-image: url(../imagenes/fondo2ab.png);
+  width: 100%
+}
+.categorias{
+  font-size: 25px;
+  padding-top: 50px;
+
+}
+.categorias div{
+  margin-bottom: 35px;
+}
+.categorias div a{
+  color: rgb(127, 158, 13);
+}
+.signo img{
+  width: 250px;
+}
+.cuestionario{
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgba(154, 192, 15, 0.4);
+}
+.flecha img{
+  height: 30px;
+
+}
+.elemento{
+  display: block;
+}
+h4{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.cuestionario{
+  margin-bottom: 10px;
+}
+.viñeta{
+  color: green;
+}
+@media (min-width: 1200px){
+  .container{
+    max-width: 100%;
+  }
+}
