@@ -1,4 +1,4 @@
-body nav {
+body nav , .contenedorLogin{
     background-color: #9AC00F;
 }
 
@@ -95,7 +95,10 @@ height:auto;
 .imagen-fondo-perfil img{
     width: 930px;
     height: 300px;
+
 }
+
+
 
 main .perfil{
     background-color: #9AC00F;
