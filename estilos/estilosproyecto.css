@@ -156,7 +156,7 @@ footer{
   font-family: 'Hind', sans-serif;
   text-align: center;
   color:green;
-  text-shadow: 5px 3px  #9AC00F;
+  /*text-shadow: 5px 3px  #9AC00F;*/
   
 }
 
@@ -178,7 +178,7 @@ footer{
   font-family: 'Nanum Gothic', sans-serif;
   font-family: 'Hind', sans-serif;
   color: green;
-  text-shadow: 2px 2px  #9AC00F;
+  /*text-shadow: 2px 2px  #9AC00F;*/
 
 }
 .img1login{
