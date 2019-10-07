@@ -150,12 +150,13 @@ footer{
 }
 
 .BienvenidoLogin{ 
+  font-style:bold; 
   text-align: center;
   font-size: 50px;
   font-family: 'Nanum Gothic', sans-serif;
   font-family: 'Hind', sans-serif;
   text-align: center;
-  color:green;
+  color: rgb(36, 197, 122);
   /*text-shadow: 5px 3px  #9AC00F;*/
   
 }
