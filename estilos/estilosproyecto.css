@@ -136,7 +136,8 @@ footer{
 /*Aca empieza el CSS del login*/    
  
 
-.bodyLogin{
+.containerLogin{
+
   background-image: url(../imagenes/fondo2ab.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -202,6 +203,7 @@ footer{
 
 
 
+
 /*-------------Aca empieza el CSS del FAQ---------------------*/
 
 body .flecha{
@@ -211,10 +213,10 @@ body .flecha{
   padding-left: 0px;
   padding-right: 0px;
 }
-.row{
+/*.row{
   background-image: url(../imagenes/fondo2ab.png);
   width: 100%
-}
+}*/
 .categorias{
   font-size: 25px;
   padding-top: 50px;
