@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="estilos\estilosproyecto.css">
 </head>
 <body>
-    <div class="container-fuid">
+    <div class="container-fuid containerLogin">
 
         <header class="row registro" id="encabezado-registro">
             <div class="col-md-12">
@@ -21,41 +21,49 @@
 
      <main class="formulario row">
         <div class="col-md-4 offset-md-4 formulario">
+            <h2 style="text-align: center; text-decoration: underline">Registrate</h2>
             <form class="row" action="home.html" method="POST">
             <p class="col-md-12">
-                <label for="Nombre">
-                    Nombre
-                </label>
-                <input type="text" name="Nombre">
+
+                <input type="text" name="Nombre" placeholder="Nombre">
             </p>
             <form class="row " action="home.html" method="POST">
             <p class="col-md-12">
-                <label for="Apellido">
-                    Apellido
-                </label>
-                <input type="text" name="Apellido">
+
+                <input type="text" name="Apellido" placeholder="Apellido">
             </p>    
             <form action="home.html" class="row">
             <p class="col-md-12">
-                <label for="email"> E-Mail </label>
-                <input type="email" name="email">
+
+                <input type="email" name="email" placeholder="E-Mail">
             </p>   
-            <p class="col-md-12">
-            <label for="UDN">UDN?</label>
-            <select name="" id="UDN">
-                <option value="Sucursal">Sucursal</option>
-                <option value="Areas Centrales">Areas Centrales</option>
-            </select>
-            </p>
 
             <form action="home.html">
             <p class="col-md-12">
-                <label for="password">Contraseña</label>
-                <input type="password" name="password">
+
+                <input type="password" name="password" placeholder="Contraseña">
 
             </p>   
+            <p class="col-md-12">
 
-            <button type="button" class="btn btn-outline-success">Unite!</button>
+                <input type="password" name="password" placeholder="Confirmar Contraseña">
+
+          </p>   
+            
+            <p class="col-md-12">
+              <textarea name="" id="" cols="30" rows="10" placeholder="Contanos un poco sobre vos! "></textarea>
+            </p>
+
+           
+            <p class="col-md-12">
+              
+            </p>
+            
+            <p class="col-md-12">
+              Al hacer click en Unite! aceptas las Condiciones y confirmas que leiste nuestra Politica de Datos, inlcuido el uso de cookies. 
+            </p>
+
+            <button  type="button" class="btn btn-outline-success">Unite!</button>
         </div>
      </main>
 

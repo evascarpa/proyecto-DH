@@ -64,7 +64,7 @@ nav ul li a{
 
 }
 
-
+/* aca comienza el encabezado*/
 #encabezado-registro{
     background-color: #9AC00F;
     height: 132px;
@@ -82,9 +82,11 @@ border-radius: 10px 10px 10px 10px;
 border: 0px solid #000000;
 margin-top: 100px;
 padding: 15px;
-justify-content: center;
-text-align: right;
+
+
 }
+
+
 
 header .registro div img{
 max-width:100%;
@@ -223,6 +225,6 @@ form textarea{
 }
 
 form button{
-  align: right;
+  box-align: right;
 }
  
