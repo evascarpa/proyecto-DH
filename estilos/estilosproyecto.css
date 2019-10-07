@@ -133,23 +133,73 @@ footer{
     margin: 0;
     padding: 0;
 }
-/*Aca empieza el CSS del login*/
+/*Aca empieza el CSS del login*/    
+ 
 
-.img-responsive{
-    width: 60%;
-    margin-right: 20%;
-    margin-left: 20%;
-}
-#exampleInputEmail1 , #exampleInputPassword1{
-    width: 60%;
-}
-.divLogin{
-    display: flex;
+.bodyLogin{
+  background-image: url(../imagenes/fondo2ab.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: unset;    
 }
 
-.divLogin2{
-    justify-content: center;
+.BienvenidoLogin{ 
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Hind', sans-serif;
+  text-align: center;
+  color:green;
+  text-shadow: 5px 3px  #9AC00F;
+  
 }
+
+.Loguearme{
+  color:  white;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Hind', sans-serif;
+  font-size: 20px;
+}
+
+.recordar{
+  color: green;
+  
+}
+
+.derechos{
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Hind', sans-serif;
+  color: green;
+  text-shadow: 2px 2px  #9AC00F;
+
+}
+.img1login{
+  width: 15%;
+  margin-right:40%;
+  margin-left: 40%;
+  border-radius: 40px; 
+  border-style: solid;
+  border-width: 10px;
+  border-color:green;
+  box-shadow:  5px 3px  #9AC00F; 
+  
+}   
+
+.btn-primary{
+  background-color: green;
+  border-color: #9AC00F;
+}
+
+.form-text{
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Hind', sans-serif;
+
+}
+
 
 
 /*-------------Aca empieza el CSS del FAQ---------------------*/
