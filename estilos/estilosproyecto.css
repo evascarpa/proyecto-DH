@@ -80,7 +80,7 @@ border-radius: 10px 10px 10px 10px;
 -moz-border-radius: 10px 10px 10px 10px;
 -webkit-border-radius: 10px 10px 10px 10px;
 border: 0px solid #000000;
-margin-top: 100px;
+margin-top: 50px;
 padding: 15px;
 
 
@@ -108,7 +108,7 @@ main .perfil{
     background-color: #9AC00F;
 
     margin-top: -40px;
- 
+
 }
 
 .fotito-de-perfil img{
@@ -127,7 +127,7 @@ margin-bottom: 20px;
 div .posteos .img{
     width: 220px;
     height: 220px;
-    
+
 }
 
 div .posteos{
@@ -149,19 +149,19 @@ footer{
 }
 
 /*aca termina el perfil*/
-/*Aca empieza el CSS del login*/    
- 
+/*Aca empieza el CSS del login*/
+
 
 .containerLogin{
 
   background-image: url(../imagenes/fondo2ab.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-blend-mode: unset;    
+  background-blend-mode: unset;
 }
 
-.BienvenidoLogin{ 
-  font-style:bold; 
+.BienvenidoLogin{
+  font-style:bold;
   text-align: center;
   font-size: 50px;
   font-family: 'Nanum Gothic', sans-serif;
@@ -169,7 +169,7 @@ footer{
   text-align: center;
   color: rgb(36, 197, 122);
   /*text-shadow: 5px 3px  #9AC00F;*/
-  
+
 }
 
 .Loguearme{
@@ -181,7 +181,7 @@ footer{
 
 .recordar{
   color: green;
-  
+
 }
 
 .derechos{
@@ -197,13 +197,14 @@ footer{
   width: 15%;
   margin-right:40%;
   margin-left: 40%;
-  border-radius: 40px; 
+  border-radius: 40px;
   border-style: solid;
   border-width: 10px;
   border-color:green;
-  box-shadow:  5px 3px  #9AC00F; 
-  
-}   
+  box-shadow:  5px 3px  #9AC00F;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 
 .btn-primary{
   background-color: green;
@@ -225,15 +226,18 @@ footer{
 
 body .flecha{
   text-align: right;
+  margin: 0px, 0px, 0px, 0px;
 }
 .container{
   padding-left: 0px;
   padding-right: 0px;
 }
-/*.row{
+.faq{
   background-image: url(../imagenes/fondo2ab.png);
-  width: 100%
-}*/
+  background-size: cover;
+  width: 100%;
+
+}
 .categorias{
   font-size: 25px;
   padding-top: 50px;
@@ -291,4 +295,3 @@ form textarea{
 form button{
   box-align: right;
 }
- 
