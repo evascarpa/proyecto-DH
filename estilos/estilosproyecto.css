@@ -250,7 +250,10 @@ body .flecha{
   color: rgb(127, 158, 13);
 }
 .signo img{
-  width: 250px;
+  width: 200px;
+}
+img{
+  width: 100%;
 }
 .cuestionario{
   border: 1px solid;
@@ -260,7 +263,7 @@ body .flecha{
 }
 .flecha img{
   height: 30px;
-
+  width: 20px;
 }
 .elemento{
   display: block;
@@ -278,6 +281,11 @@ h4{
 @media (min-width: 1200px){
   .container{
     max-width: 100%;
+  }
+}
+@media (max-width: 768px){
+  .signo{
+    display: none;
   }
 }
 
