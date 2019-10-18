@@ -143,8 +143,10 @@ height:auto;
 }
 
 .imagen-fondo-perfil img{
-    width: 1100px;
-    height: 300px;
+    width: 100vw;
+    height: 400px;
+    margin-left: 0%;
+    margin-right: 0%;
 
 }
 
@@ -152,8 +154,13 @@ height:auto;
 
 main .perfil{
     background-color: #9AC00F;
+    
 
-    margin-top: -40px;
+    margin-top: -100px;
+
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 
 }
 
@@ -169,6 +176,7 @@ margin-top: -40;
 z-index: 15;
 margin-bottom: 20px;
 }
+
 
 div .posteos .img{
     width: 220px;
@@ -187,11 +195,18 @@ footer{
     padding: 0;
 }
 
-@media (max-width:320px){
+@media (max-width:900px){
   .imagen-fondo-perfil img{
     display: none;
 }
 
+}
+
+body.perfil{
+  background-image: url(../imagenes/fondo2ab.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: unset;
 }
 
 /*aca termina el perfil*/
