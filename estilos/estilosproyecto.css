@@ -1,3 +1,12 @@
+
+
+div.row {
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+
+
 body nav , .contenedorLogin{
     background-color: #9AC00F;
 }
@@ -243,6 +252,17 @@ footer{
   margin-bottom: 5px;
 }
 
+@media(max-width: 900px){.img1login{
+  
+  width: 30%;
+  height: 30%;
+  margin-right: 35%;
+  margin-left: 35%;
+
+}}
+
+
+
 .btn-primary{
   background-color: green;
   border-color: #9AC00F;
@@ -340,3 +360,27 @@ form textarea{
 form button{
   box-align: right;
 }
+
+.boton-unite{
+
+  width: 100%;
+  background-color: green;
+  color:  white;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Hind', sans-serif;
+  font-size: 20px;
+ 
+}
+
+.inscripcion{
+  width: 100%;
+  margin-right: 0px;
+  margin-left:0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.input-registro{
+  width: 80%;
+}
+
