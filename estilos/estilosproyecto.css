@@ -2,62 +2,62 @@ div.row {
     margin: 0px 0px;
     padding: 0px 0px;
   }
-  
-  
-  
+
+
+
   body nav , .contenedorLogin{
       background-color: #9AC00F;
   }
-  
+
   nav{
       background-color:black;
   }
-  
+
   nav div img{
       height: 80px;
       width: 80px;
-  
+
   }
   nav ul li a{
       font-size: 18pt;
   }
-  
+
   .carrousel{
       height: 500px;
       width: 80%;
   }
-  
+
   #chat{
     background-color: rgb(224, 247, 224);
     height: 30px;
       width: 100%;
        box-sizing: border-box;
       overflow:hidden;
-     
-  
+
+
   }
    .personaChat, .personaChat2{
     float:left;
     margin: 5px;
-    
+
     box-sizing: border-box;
    }
-  
+
   #chat img{
     height: 20px;
       width: 20px;
   }
-  
+
   .barra nav ul li a{
       font-size: 13pt;
   }
-  
-  
+
+
   .noticias{
       overflow:hidden;
-  
+
   }
-  
+
   .noticias div {
     border: #9AC00F 1px solid;
     padding: 10px;
@@ -72,7 +72,7 @@ div.row {
     overflow:hidden;
     background-color: rgb(224, 247, 224);
     }
-  
+
   .noticias div img{
       height: 40px;
       width: 40px;
@@ -85,7 +85,7 @@ div.row {
     float:left;
     box-sizing:border-box;
   }
-  
+
   #iconos{
     border: none;
     width: 100%;
@@ -97,29 +97,29 @@ div.row {
     float:left;
     background: none;
     border: none;
-  
+
    }
-  
+
   #post img{
       width: 100%;
       height:100%;
-  
+
   }
   .pie nav ul li a{
       font-size: 13pt;
-  
+
   }
-  
+
   /* aca comienza el encabezado*/
   #encabezado-registro{
       background-color: #9AC00F;
       height: 132px;
   }
-  
+
   header p{
       display: inline;
   }
-  
+
   .formulario .row{
   background-color:rgba(93, 232, 107,0.5);
   border-radius: 10px 10px 10px 10px;
@@ -128,42 +128,39 @@ div.row {
   border: 0px solid #000000;
   margin-top: 50px;
   padding: 15px;
-  
-  
-  
+
   }
-  
-  
-  /*aca empieza el perfil*/
+
+
+  /*----------aca empieza el perfil----------*/
+
+  body.perfil{
+    background-image: url(../imagenes/fondo2ab.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: unset;
+  }
   
   header .registro div img{
   max-width:100%;
   height:auto;
-  
+
   }
-  
+
   .imagen-fondo-perfil img{
       width: 100vw;
       height: 400px;
       margin-left: 0%;
       margin-right: 0%;
-  
   }
-  
-  
-  
+
   main .perfil{
       background-color: #9AC00F;
-      
-  
       margin-top: -100px;
-  
-      width: 80%;
-      margin-left: 10%;
-      margin-right: 10%;
-  
+      width: 100%;
+
   }
-  
+
   .fotito-de-perfil img{
       background-color: blue;
       border-radius: 200px 200px 200px 200px;
@@ -176,51 +173,51 @@ div.row {
   z-index: 15;
   margin-bottom: 20px;
   }
-  
-  
+
+
   div .posteos .img{
       width: 220px;
       height: 220px;
-  
+
   }
-  
+
   div .posteos{
       margin-bottom: 10px;
   }
-  
+
   footer{
       background-color:  #9AC00F;
       height: 80px;
       margin: 0;
       padding: 0;
   }
-  
+
   @media (max-width:900px){
     .imagen-fondo-perfil img{
       display: none;
   }
-  
+}
+
+  @media (min-width: 768px) {
+    main .perfil div img{
+      margin-top: 100px;
+    }
   }
-  
-  body.perfil{
-    background-image: url(../imagenes/fondo2ab.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: unset;
-  }
-  
-  /*aca termina el perfil*/
+
+
+
+  /*----------aca termina el perfil-----*/
   /*Aca empieza el CSS del login*/
-  
-  
+
+
   .containerLogin, .containerContacto{
-  
+
     background-image: url(../imagenes/fondo2ab.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: unset;
   }
-  
+
   .BienvenidoLogin{
     font-style:bold;
     text-align: center;
@@ -230,21 +227,21 @@ div.row {
     text-align: center;
     color: rgb(36, 197, 122);
     /*text-shadow: 5px 3px  #9AC00F;*/
-  
+
   }
-  
+
   .Loguearme{
     color:  white;
     font-family: 'Nanum Gothic', sans-serif;
     font-family: 'Hind', sans-serif;
     font-size: 20px;
   }
-  
+
   .recordar{
     color: green;
-  
+
   }
-  
+
   .derechos{
     text-align: center;
     font-size: 22px;
@@ -252,7 +249,7 @@ div.row {
     font-family: 'Hind', sans-serif;
     color: green;
     /*text-shadow: 2px 2px  #9AC00F;*/
-  
+
   }
   .img1login{
     width: 15%;
@@ -266,36 +263,36 @@ div.row {
     margin-top: 5px;
     margin-bottom: 5px;
   }
-  
+
   @media(max-width: 900px){.img1login{
-    
+
     width: 30%;
     height: 30%;
     margin-right: 35%;
     margin-left: 35%;
-  
+
   }}
-  
-  
-  
+
+
+
   .btn-primary{
     background-color: green;
     border-color: #9AC00F;
   }
-  
+
   .form-text{
     text-align: center;
     font-size: 15px;
     font-family: 'Nanum Gothic', sans-serif;
     font-family: 'Hind', sans-serif;
-  
+
   }
-  
-  
-  
-  
+
+
+
+
   /*-------------Aca empieza el CSS del FAQ---------------------*/
-  
+
   body .flecha{
     text-align: right;
     margin: 0px, 0px, 0px, 0px;
@@ -308,12 +305,12 @@ div.row {
     background-image: url(../imagenes/fondo2ab.png);
     background-size: cover;
     width: 100%;
-  
+
   }
   .categorias{
     font-size: 25px;
     padding-top: 50px;
-  
+
   }
   .categorias div{
     margin-bottom: 35px;
@@ -360,11 +357,11 @@ div.row {
       display: none;
     }
   }
-  
+
   form div h4, p{
     text-align: center;
   }
-  
+
   form textarea{
     width: 100%;
 <<<<<<< HEAD
@@ -372,22 +369,22 @@ div.row {
     font-style: italic;
     text-align: left;
   }
-  
+
   form button{
     box-align: right;
   }
-  
+
   .boton-unite{
-  
+
     width: 100%;
     background-color: green;
     color:  white;
     font-family: 'Nanum Gothic', sans-serif;
     font-family: 'Hind', sans-serif;
     font-size: 20px;
-   
+
   }
-  
+
   .inscripcion{
     width: 100%;
     margin-right: 0px;
@@ -698,17 +695,16 @@ h4{
     max-width: 100%;
 >>>>>>> 8d60dc0740bd1b4677c2cd955879f8de07743aa7
   }
-  
+
   .input-registro{
     width: 80%;
   }
-  
+
   .imagen-registro-corazon{
     width: 170px;
   }
-  
+
   @media(max-width:768px){.imagen-registro-corazon{
     display: none;
   }
   }
-  
