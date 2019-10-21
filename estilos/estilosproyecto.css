@@ -161,9 +161,12 @@ height:auto;
   display: flex;
   justify-content: center;
 }
+.imagen-fondo-perfil{
+  width: auto;
+}
 
-.imagen-fondo-perfil .banner img{
-  width: 1110px;
+.imagen-fondo-perfil img{
+  width: 100%;
   height: 300px;
 }
 body.perfil{
@@ -175,9 +178,7 @@ body.perfil{
 main .perfil{
     background-color: #9AC00F;
     margin-top: -100px;
-    width: 80%;
-
-
+    width: 100%;
 }
 
 .fotito-de-perfil img{
@@ -235,6 +236,14 @@ footer{
 }
 
 }
+@media (max-width:768px){
+  main.perfil{
+    margin-top: 100px;
+  }
+
+}
+
+
 @media (min-width: 768px) {
   .perfil .fotito-de-perfil{
       margin left:0px;
@@ -243,7 +252,7 @@ footer{
 }
 @media (min-width: 1024px){
   .imagen-fondo-perfil .banner img{
-    margin-left: 110px;
+
 
   }
 }
