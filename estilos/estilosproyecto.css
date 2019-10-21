@@ -21,7 +21,10 @@ div.row {
   nav ul li a{
       font-size: 18pt;
   }
-  
+  .watch, .novedades, .eventos{
+      background-color:rgb(224, 247, 224) ;
+      
+  }
   .carrousel{
       height: 500px;
       width: 80%;
