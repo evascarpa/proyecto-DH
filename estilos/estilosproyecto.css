@@ -110,6 +110,12 @@ nav ul li a{
 
 }
 
+@media(max-width:768px){
+  .carrousel{
+    display: none;
+  }
+}
+
 /* aca comienza el encabezado*/
 #encabezado-registro{
     background-color: #9AC00F;
