@@ -176,8 +176,8 @@ main .perfil{
     background-color: #9AC00F;
     margin-top: -100px;
     width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+
+
 }
 
 .fotito-de-perfil img{
@@ -240,7 +240,6 @@ footer{
       margin left:0px;
       align: center;
   }
-
 }
 @media (min-width: 1024px){
   .imagen-fondo-perfil .banner img{
@@ -251,7 +250,7 @@ footer{
 
 
 
-/*aca termina el perfil*/
+/*******aca termina el perfil*********/
 /*Aca empieza el CSS del login*/
 
 
