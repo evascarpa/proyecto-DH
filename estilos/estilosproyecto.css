@@ -177,7 +177,7 @@ div.row {
       display: inline;
   }
 
-  .formulario .row{
+  .formulario-contact .row{
   background-color:rgba(93, 232, 107,0.5);
   border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
@@ -346,7 +346,7 @@ div.fotito-de-perfil{
 
 
 
-  /*-------------Aca empieza el CSS del FAQ---------------------*/
+  /*------Aca empieza el CSS del FAQ---------------------*/
 
   body .flecha{
     text-align: right;
@@ -392,7 +392,7 @@ div.fotito-de-perfil{
   .elemento{
     display: block;
   }
-  h4{
+  #uso-aplicacion h4, #adm-cuenta h4, #seguridad h4{
     margin-top: 40px;
     margin-bottom: 40px;
   }
@@ -417,8 +417,9 @@ div.fotito-de-perfil{
     text-align: center;
   }
 
+/*----Aca empieza el CSS del registro--------*/
   form textarea{
-    width: 100%;
+    width: 80%;
     color: grey;
     font-style: italic;
     text-align: left;
@@ -427,16 +428,22 @@ div.fotito-de-perfil{
   form button{
     box-align: right;
   }
+  .text-form{
+    font-size: 15px;
+    text-align: right;
+  }
+
+  .btn-date{
+  margin-right: 30px;
+  }
 
   .boton-unite{
-
     width: 100%;
     background-color: green;
     color:  white;
     font-family: 'Nanum Gothic', sans-serif;
     font-family: 'Hind', sans-serif;
     font-size: 20px;
-
   }
 
   .inscripcion{
@@ -446,17 +453,39 @@ div.fotito-de-perfil{
     padding-right: 0px;
     padding-left: 0px;
   }
-
+  .inscripcion h4{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: green;
+  }
   .input-registro{
     width: 80%;
   }
+  .formulario-registro .row{
+  background-color:rgba(93, 232, 107,0.5);
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 0px solid #000000;
+  margin-top: 0px;
+  padding: 15px;
 
-  .imagen-registro-corazon{
-    width: 170px;
   }
 
+
   @media(max-width:768px){
-    .imagen-registro-corazon{
-      display: none;
+    .text-form{
+      text-align: left;
+    }
+    .input-registro{
+      width: 100%;
+    }
+    form textarea{
+      width: 100%;
+    }
+    .BienvenidoLogin{
+      font-style:bold;
+      text-align: center;
+      font-size: 40px;
     }
   }
