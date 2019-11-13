@@ -1,3 +1,39 @@
+.box11{
+  overflow: hidden;
+}
+
+.logo11{
+  height: 250px;
+  width: 50%;
+  float:left;
+  margin: 0px;
+}
+
+.logo11 img{
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 70px;
+  top: 10px;
+
+}
+
+.login11{
+  height: 250px;
+  width: 50%;
+  float:left;
+  margin: 0px;
+  font-size: 21px;
+
+}
+.carrousel1{
+  width: 100%;
+}
+
+/* ......ahta acá lo q serían estilos del index nuevo......*/
+
+
+
 div.row {
     margin: 0px 0px;
     padding: 0px 0px;
