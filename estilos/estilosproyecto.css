@@ -18,13 +18,19 @@
   top: 25px;
 }
 
+.paddingNavbar{
+  padding-right: 0px !important;
+  
+}
+
 .login11{
   height: 250px;
   width: 60%;
   float:left;
   margin: 0px;
   font-size: 21px;
-  background-image: url(../imagenes/fondo2ab.png);
+  background-color: white;
+ 
 }
 .login-form{
   width: 100%;
@@ -38,6 +44,7 @@
 }
 .loginRapido{
   font-size: 15px;
+  background-color: white;
 }
 .label-text{
   margin-top: 10px;
@@ -46,6 +53,9 @@
   width: 100%;
 }
 
+.elMundoNecesita{
+  text-align: center;
+}
 
 /* ......hasta acá lo q serían estilos del index nuevo......*/
 
@@ -289,6 +299,13 @@ div.fotito-de-perfil{
     font-family: 'Nanum Gothic', sans-serif;
     font-family: 'Hind', sans-serif;
     font-size: 20px;
+    width: 100%;
+   
+  }
+
+  .btn-registrarme{
+   margin-right: 0px;
+   width: 310px !important;
   }
 
   .recordar{
@@ -333,6 +350,7 @@ div.fotito-de-perfil{
   .btn-primary{
     background-color: green;
     border-color: #9AC00F;
+    width: 330px;
   }
 
   .form-text{
