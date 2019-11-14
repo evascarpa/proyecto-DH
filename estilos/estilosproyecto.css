@@ -166,7 +166,7 @@ div.row {
       font-size: 13pt;
 
   }
-
+/*-----empieza Contacto ----*/
   /* aca comienza el encabezado*/
   #encabezado-registro{
       background-color: #9AC00F;
@@ -183,9 +183,15 @@ div.row {
   -moz-border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
   border: 0px solid #000000;
-  margin-top: 50px;
+  margin-top: 30px;
   padding: 15px;
 
+  }
+  .contacto h4, .contacto h3{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    color: green;
+    text-align: center;
   }
 
 
@@ -419,7 +425,7 @@ div.fotito-de-perfil{
 
 /*----Aca empieza el CSS del registro--------*/
   form textarea{
-    width: 80%;
+    width: 90%;
     color: grey;
     font-style: italic;
     text-align: left;
@@ -459,7 +465,7 @@ div.fotito-de-perfil{
     color: green;
   }
   .input-registro{
-    width: 80%;
+    width: 90%;
   }
   .formulario-registro .row{
   background-color:rgba(93, 232, 107,0.5);
