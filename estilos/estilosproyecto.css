@@ -26,7 +26,13 @@
   color: white;
   background-color:#9AC00F;
   border: 1px, solid, green;
-  border-radius: 40%;
+  border-radius: 15px;
+}
+
+.botonesGeneral:hover{
+  background-color: orange;
+  opacity: 0,5;
+
 }
 
 .logo11{
@@ -81,6 +87,9 @@
 
 .elMundoNecesita{
   text-align: center;
+}
+.elMundoNecesitaTamaño{
+  font-size: 30px !important;
 }
 
 /* ......hasta acá lo q serían estilos del index nuevo......*/
