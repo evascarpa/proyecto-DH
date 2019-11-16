@@ -1,3 +1,28 @@
+/*CONFIGURACIONES GENERALES*/
+
+.hoverOrange:hover{         /*para hacer las letras naranjas cuando mouse*/
+  color: rgb(255,153,18);
+ }
+ 
+ .botonesGeneral{
+   color: white;
+   background-color:rgb(144,197,0) !important;
+   border-radius: 15px;
+ }
+ 
+ .botonesGeneral:hover{        /*para fondo de boton naranja cuando mouse */
+   background-color:rgb(255,153,18) !important;
+ }
+ 
+ .footerYBarraSupGeneral{
+   color:black !important;
+   font-size: 18px !important;
+   height: 40px !important;
+
+ }
+
+
+
 /* .. acá empiezan estilos del index nuevo......*/
 .box11{
   overflow: hidden;
@@ -18,22 +43,6 @@
   margin-right: 10%;
 }
 
-.hoverOrange:hover{
- color: orange;
-}
-
-.botonesGeneral{
-  color: white;
-  background-color:#9AC00F;
-  border: 1px, solid, green;
-  border-radius: 15px;
-}
-
-.botonesGeneral:hover{
-  background-color: orange;
-  opacity: 0,5;
-
-}
 
 .logo11{
   height: 250px;
@@ -43,12 +52,14 @@
 }
 
 .logo11 img{
-  height: 180px;
-  width: 70%;
+  height: 170px;
+  width: 65%;
   position: relative;
   left: 20px;
   top: 25px;
 }
+
+
 
 .paddingNavbar{
   padding-right: 0px !important;
