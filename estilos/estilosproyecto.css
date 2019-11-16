@@ -10,7 +10,7 @@
    border-radius: 15px;
  }
  
- .botonesGeneral:hover{        /*para fondo de boton naranja cuando mouse */
+ .botonesGeneral:hover {        /*para fondo de boton naranja cuando mouse */
    background-color:rgb(255,153,18) !important;
  }
  
