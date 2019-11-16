@@ -7,6 +7,28 @@
   padding: 0% 0% 0% 0%;
 }
 
+.registrateAca{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+
+.ingresaATuCuenta{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.hoverOrange:hover{
+ color: orange;
+}
+
+.botonesGeneral{
+  color: white;
+  background-color:#9AC00F;
+  border: 1px, solid, green;
+  border-radius: 40%;
+}
+
 .logo11{
   height: 250px;
   width: 40%;
@@ -328,10 +350,6 @@ div.fotito-de-perfil{
    
   }
 
-  .OlvidasteRegistrate{
-    list-style: none;
-  }
-
   .recordar{
     color: green;
 
@@ -339,7 +357,8 @@ div.fotito-de-perfil{
 
   .derechos{
     text-align: center;
-    font-size: 22px;
+    margin-left: 20%;    
+    font-size: 20px;
     font-family: 'Nanum Gothic', sans-serif;
     font-family: 'Hind', sans-serif;
     color: green;
