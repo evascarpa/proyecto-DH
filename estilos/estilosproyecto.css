@@ -1,7 +1,7 @@
 /*CONFIGURACIONES GENERALES*/
 
 .hoverOrange:hover{         /*para hacer las letras naranjas cuando mouse*/
-  color: rgb(255,153,18);
+  color: rgb(255,153,18) !important;
  }
  
  .botonesGeneral{
@@ -18,8 +18,12 @@
    color:black !important;
    font-size: 18px !important;
    height: 40px !important;
+   margin-left: 10px;
+   margin-right:10px;
+   padding: 8px;
+   }
 
- }
+  
 
 
 
@@ -328,9 +332,10 @@ div.fotito-de-perfil{
 
   footer{
 
-      height: 80px;
-      margin: 0;
-      padding: 0;
+      height: 0px;
+      margin: 0px 0px 0px 0px;
+      padding:  0px 0px 0px 0px;
+      border: 0px 0px 0px 0px;
   }
 
 
