@@ -15,8 +15,8 @@
 }
 
 .logo11 img{
-  height: 200px;
-  width: 80%;
+  height: 180px;
+  width: 70%;
   position: relative;
   left: 20px;
   top: 25px;
@@ -28,7 +28,7 @@
 }
 
 .login11{
-  height: 250px;
+  height: 310px;
   width: 60%;
   float:left;
   margin: 0px;
@@ -328,7 +328,9 @@ div.fotito-de-perfil{
    
   }
 
-
+  .OlvidasteRegistrate{
+    list-style: none;
+  }
 
   .recordar{
     color: green;
@@ -341,9 +343,8 @@ div.fotito-de-perfil{
     font-family: 'Nanum Gothic', sans-serif;
     font-family: 'Hind', sans-serif;
     color: green;
-    /*text-shadow: 2px 2px  #9AC00F;*/
-
-  }
+       
+    }
   .img1login{
     width: 15%;
     margin-right:40%;
