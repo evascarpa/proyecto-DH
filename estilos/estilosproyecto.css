@@ -17,13 +17,19 @@
  .footerYBarraSupGeneral{
    color:black !important;
    font-size: 18px !important;
-   height: 40px !important;
    margin-left: 10px;
    margin-right:10px;
    padding: 8px;
    }
 
   
+   footer{
+
+    height: 0px;
+    margin: 0px 0px 0px 0px;     /*todo esto para intentar sacar el espacio vacio que queda abajo del footer, pero no                                     le encontre la vuelta*/
+    padding:  0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+}
 
 
 
@@ -330,13 +336,6 @@ div.fotito-de-perfil{
       margin-bottom: 10px;
   }
 
-  footer{
-
-      height: 0px;
-      margin: 0px 0px 0px 0px;
-      padding:  0px 0px 0px 0px;
-      border: 0px 0px 0px 0px;
-  }
 
 
 
