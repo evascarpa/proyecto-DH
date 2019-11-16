@@ -5,10 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contacto</title>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos\estilosproyecto.css">
 </head>
 <body>
@@ -34,50 +31,64 @@
               </div>
             </nav>
                   </div>
-
     </header>
 
-
     <main>
-         <div class="container-fuid">
+       <div class="container-fuid">
+          <div class="formulario-contact row">
+              <div class="col-md-12 contacto">
+                <h3>CONTACTATE CON NOSOTROS</h3>
+                  <h4>Envíanos un e-mail</h4>
+              </div>
+                <div class="col-md-6 offset-md-3 formulario">
+                    <form class="row" action="home.html" method="POST">
+                        <p class="col-md-2">
+                          <label for="nombre">Nombre</label>
+                        </p>
+                        <p class="col-md-10">
+                          <input type="text" style="width:90%"; name="Nombre">
+                        </p>
+                        <p class="col-md-2">
+                          <label for="asunto">Asunto</label>
+                        </p>
+                        <p class="col-md-10">
+                          <input type="text" style="width:90%;" name="Asumto">
+                        </p>
+                        <p class="col-md-2">
+                          <label for="email">Mail</label>
+                        </p>
+                        <p class="col-md-10">
+                          <input type="email" style="width:90%;" name="mail">
+                        </p>
+                        <p class="col-md-2">
+                          <label for="celular">Celular</label>
+                        </p>
+                        <p class="col-md-10">
+                          <input type="text" style="width:90%;" name="tel">
+                        </p>
+                        <p class="col-md-2">
+                          <label for="udn">UDN</label>
+                        </p>
+                        <p class="col-md-10">
 
-              <div class="formulario-contact row">
-                <div class="col-md-12 contacto">
-                  <h3>CONTACTATE CON NOSOTROS</h3>
-                    <h4>Envíanos un e-mail</h4>
-                </div>
-                  <div class="col-md-4 offset-md-4 formulario">
-
-                      <form class="row" action="home.html" method="POST">
-                          <p class="col-md-12">
-                            <label for="Nombre">
-                                Nombre
-                            </label>
-                            <input type="text" name="Nombre">
-                          </p>
-
-
-                          <p class="col-md-12">
-                            <label for="Asunto">
-                                Asunto
-                            </label>
-                            <input type="text" name="Asumto">
-                          </p>
-                          <p class="col-md-12">
-                          <label for="UDN">UDN?</label>
-                          <select name="" id="UDN">
+                          <select name="" style="width:90%;" id="UDN">
                               <option value="Sucursal">Sucursal</option>
                               <option value="Areas Centrales">Areas Centrales</option>
+                              <option value="5006">5006</option>
+                              <option value="5014">5014</option>
+                              <option value="5051">5051</option>
+                              <option value="5054">5054</option>
+                              <option value="5062">5062</option>
                           </select>
                           </p>
-
-                          <p class="col-md-12">
-                              <label for="comenta" ></label>
-                              <textarea id="comenta" name="comenta"  rows="8" col="12">
-                                    Escribe tu mensaje aquí...
-                              </textarea>
+                          <p class="col-md-2">
+                            <label for="comentario-contact">Mensaje</label>
                           </p>
-                          <button id="enviar" type="button" class="btn btn-outline-success">Enviar</button>
+                          <p class="col-md-10">
+                              <label for="comenta" ></label>
+                              <textarea id="comenta" name="comenta"  rows="8" col="12" placeholder="Escribe tu mensaje aquí..." style="width:90%;"></textarea>
+                          </p>
+                          <button action="" class="btn btn-sm btn-outline-secondary btn-primary Contacto botonesGeneral" id="enviar" type="button" class="btn btn-outline-success">Enviar</button>
                       </form>
                   </div>
 
@@ -126,5 +137,8 @@
         </nav>
   </footer>
     </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -3,17 +3,17 @@
 .hoverOrange:hover{         /*para hacer las letras naranjas cuando mouse*/
   color: rgb(255,153,18) !important;
  }
- 
+
  .botonesGeneral{
    color: white;
    background-color:rgb(144,197,0) !important;
    border-radius: 15px;
  }
- 
+
  .botonesGeneral:hover {        /*para fondo de boton naranja cuando mouse */
    background-color:rgb(255,153,18) !important;
  }
- 
+
  .footerYBarraSupGeneral{
    color:black !important;
    font-size: 18px !important;
@@ -22,7 +22,7 @@
    padding: 8px;
    }
 
-  
+
    footer{
 
     height: 0px;
@@ -73,7 +73,7 @@
 
 .paddingNavbar{
   padding-right: 0px !important;
-  
+
 }
 
 .login11{
@@ -83,7 +83,7 @@
   margin: 0px;
   font-size: 21px;
   background-color: white;
- 
+
 }
 .login-form{
   width: 90%;
@@ -170,7 +170,7 @@ div.row {
       width: 100%;
        box-sizing: border-box;
       overflow:hidden;
-      
+
 
 
   }
@@ -274,7 +274,14 @@ div.row {
     color: green;
     text-align: center;
   }
+  .Contacto{
+    color:  white;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Hind', sans-serif;
+    font-size: 20px;
+    width: 100% !important;
 
+  }
 
   /*----------aca empieza el perfil----------*/
 
@@ -371,7 +378,7 @@ div.fotito-de-perfil{
     font-family: 'Hind', sans-serif;
     font-size: 20px;
     width: 385px !important;
-   
+
   }
 
   .recordar{
@@ -381,12 +388,12 @@ div.fotito-de-perfil{
 
   .derechos{
     text-align: center;
-    margin-left: 20%;    
+    margin-left: 20%;
     font-size: 20px;
     font-family: 'Nanum Gothic', sans-serif;
     font-family: 'Hind', sans-serif;
     color: green;
-       
+
     }
   .img1login{
     width: 15%;
@@ -521,15 +528,6 @@ div.fotito-de-perfil{
   margin-right: 30px;
   }
 
-  .boton-unite{
-    width: 100%;
-    background-color: green;
-    color:  white;
-    font-family: 'Nanum Gothic', sans-serif;
-    font-family: 'Hind', sans-serif;
-    font-size: 20px;
-  }
-
   .inscripcion{
     width: 100%;
     margin-right: 0px;
@@ -555,7 +553,14 @@ div.fotito-de-perfil{
   padding: 15px;
 
   }
+  .Unite{
+    color:  white;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Hind', sans-serif;
+    font-size: 20px;
+    width: 100% !important;
 
+  }
 
   @media(max-width:768px){
     .text-form{

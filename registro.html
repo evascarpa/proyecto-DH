@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Registro</title>
+    <script src="js/script.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos\estilosproyecto.css">
 </head>
@@ -152,6 +153,15 @@
                 <option value="1950">1950</option>
               </select>
             </p>
+
+            <p class="col-md-3 text-form">Lugar de nacimiento</p>
+            <p class="col-md-9">
+              <select class="provincias" id="provincias" style="width:90%;" name="">
+                <option>Selecciona una provincia</option>
+
+              </select>
+            </p>
+
             <p class="col-md-3 text-form">E-mail</p>
             <p class="col-md-9">
               <input  class="input-registro" type="email" name="email" placeholder="Ingresa tu e-mail aquí...">
@@ -172,9 +182,7 @@
             <p class="col-md-12">
               Al hacer click en Unite! aceptas las Condiciones y confirmas que leiste nuestra Politica de Datos, inlcuido el uso de cookies.
             </p>
-            <p class="col-md-12">
-            <button  type="button" class="btn btn-outline-success boton-unite"> <a href="home.html" style="text-decoration: none"  class="Loguearme">Unite!</a> </button>
-            </p>
+            <button action="home.html" class="btn btn-sm btn-outline-secondary btn-primary Unite botonesGeneral " type="button">Unite!</button>
         </div>
 
         <div class="col-md-2">
