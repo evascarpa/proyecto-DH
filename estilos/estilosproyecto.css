@@ -6,12 +6,12 @@
 
  .botonesGeneral{
    color: white;
-   background-color:rgb(144,197,0) !important;
+   background-color:rgb(144,197,0) !important;  /*ESTE TONO DE VERDE ESTA TOMADO CON PICK COLOR, ES EL MISMO VERDE EXACTO DEL LOGO QUE HIZO RAQUEL*/
    border-radius: 15px;
  }
 
  .botonesGeneral:hover {        /*para fondo de boton naranja cuando mouse */
-   background-color:rgb(255,153,18) !important;
+   background-color:rgb(255,153,18) !important;   /*ESTE TONO DE NARANJA ESTA TOMADO CON PICK COLOR, ES EL MISMO NARANJA EXACTO DEL LOGO QUE HIZO RAQUEL*/
  }
 
  .footerYBarraSupGeneral{
@@ -373,7 +373,7 @@ div.fotito-de-perfil{
     font-family: 'Nanum Gothic', sans-serif;
     font-family: 'Hind', sans-serif;
     text-align: center;
-    color: rgb(36, 197, 122);
+    color: rgb(144,197,0);
     /*text-shadow: 5px 3px  #9AC00F;*/
 
   }
