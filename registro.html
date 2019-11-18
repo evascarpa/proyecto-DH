@@ -26,11 +26,12 @@
             <form class="row" action="home.html" method="POST">
               <p class="col-md-3 text-form">Nombre</p>
             <p class="col-md-9">
-              <input class="input-registro"  type="text" name="Nombre" placeholder="Ingresa tu nombre aquí...">
+              <input class=" input-registro inputNombre"  type="text" name="Nombre" placeholder="Ingresa tu nombre aquí..."><br><span class="spanErrorEstilo error-inputNombre"  >Tu nombre debe tener al menos 3 caracteres</span>
+
             </p>
             <p class="col-md-3 text-form">Apellido</p>
             <p class="col-md-9">
-              <input  class="input-registro" type="text" name="Apellido" placeholder="Ingresa tu apellido aquí...">
+              <input  class="input-registro inputApellido" type="text" name="Apellido" placeholder="Ingresa tu apellido aquí..."><br><span class="spanErrorEstilo error-inputApellido" >Tu apellido debe tener al menos 3 caracteres</span>
             </p>
             <p class="col-md-3 text-form">Género</p>
             <p class="col-md-9">
@@ -164,19 +165,19 @@
 
             <p class="col-md-3 text-form">E-mail</p>
             <p class="col-md-9">
-              <input  class="input-registro" type="email" name="email" placeholder="Ingresa tu e-mail aquí...">
+              <input  class=" input-registro inputEmail" type="email" name="email" placeholder="Ingresa tu e-mail aquí..."><br><span class="spanErrorEstilo error-inputEmail"  >Formato de Email inválido</span>
             </p>
             <p class="col-md-3 text-form">Contraseña</p>
             <p class="col-md-9">
-              <input  class="input-registro" type="password" name="password" placeholder="Ingresa tu contraseña aquí...">
+              <input  class=" input-registro inputContrasenia" type="password" name="password" placeholder="Ingresa tu contraseña aquí...">
             </p>
             <p class="col-md-3 text-form">Confirmar contraseña</p>
             <p class="col-md-9" >
-              <input   class="input-registro" type="password" name="password" placeholder="Ingresa tu contraseña aquí...">
+              <input   class=" input-registro ConfirmContrasenia" type="password" name="password" placeholder="Ingresa tu contraseña aquí..."><br><span class="spanErrorEstilo error-confirmContrasenia"  >Tu contraseñia debe tener al menos 6 caracteres</span>
             </p>
             <p class="col-md-3 text-form">Escribe una breve reseña sobre ti:</p>
             <p class="col-md-9">
-              <textarea name="" id="" cols="30" rows="10" placeholder="Contanos un poco sobre vos! "></textarea>
+              <textarea name="" id="TextSobreVos" cols="30" rows="10" placeholder="Contanos un poco sobre vos! "></textarea><br><span class="spanErrorEstilo error-inputTextSobreVos"  >Contanos algo sobre vos!</span>
             </p>
 
             <p class="col-md-12">

@@ -17,5 +17,11 @@ window.addEventListener("load", function(){
     });
  });
 
-
 });
+
+/*VALIDACIONES DEL FORMULARIO DE REGISTRO*/
+window.addEventListener("load", function(){                                           
+
+  
+
+})
