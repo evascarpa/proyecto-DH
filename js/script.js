@@ -53,14 +53,17 @@ window.addEventListener("load", function(){
   /*tomar los datos del formulario*/
   var nombre=document.querySelector(".inputNombre");
   var apellido=document.querySelector(".inputApellido");
+  var provincias = document.querySelector("select#provincias");
   var email=document.querySelector(".inputEmail");
   var contrasenia=document.querySelector(".inputContrasenia")
   var confirmContrasenia=document.querySelector(".inputConfirmContrasenia");
   var textSobreVos=document.querySelector(".inputTextSobreVos");
+  
 
   /*tomo los span de errores del formulario */
   var errorNombre=document.querySelector(".error-inputNombre");
   var errorApellido=document.querySelector(".error-inputApellido");
+  var errorProvincias=document.querySelector(".errorProvincias");
   var errorEmail=document.querySelector(".error-inputEmail");
   var errorContrasenia=document.querySelector(".error-contrasenia");
   var errorConfirmContrasenia=document.querySelector(".error-confirmContrasenia");
@@ -93,6 +96,16 @@ window.addEventListener("load", function(){
     apellido.style.border="3px solid rgb(144,197,0)";
   }
   
+  if(provincias.value == 0){
+    errorProvincias.innerHTML="Seleccioná una provincia";
+    provincias.style.border="3px solid rgb(255,153,18)";
+    errores=true;
+  }else{
+    errorProvincias.innerHTML="";
+    provincias.style.border="3px solid rgb(144,197,0)";
+  }
+
+
   expr = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;  /*METODO DE EXPRESION REGULAR PARA VALIDAR FORMATO DE MAIL   LINKS EXPLICATIVOS : http://lineadecodigo.com/javascript/validar-el-email-con-javascript/  Y ACA OTRO LINK: https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_Expressions */
    if(email.value==""){
     errorEmail.innerHTML="Tu Email es obligatorio";

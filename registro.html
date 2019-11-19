@@ -40,6 +40,8 @@
             </p>
             <p class="col-md-3 text-form">Fecha de nacimiento</p>
             <p class="col-md-9">
+              <input type="date">      <!-- CON EL IMPUT TYPE "DATE" APARECE EL CALENDARIO DESPLEGABLE DONDE FIGURAN LOS AÑOS POR SIEMPRE, ES OTRA OPCION EN LUGAR DE PONER TODO MANUAL O CONSEGUIR UN FETCH/ DEJO FUNCIONANDO AMBAS OPCIONES PARA QUE VEAN QUE LES GUSTA MAS.   -->
+
               <select class="dia" name="dia">
                 <option value="0">día</option>
                 <option value="01">01</option>
@@ -153,14 +155,15 @@
                 <option value="1951">1951</option>
                 <option value="1950">1950</option>
               </select>
+
+             
             </p>
 
             <p class="col-md-3 text-form">Lugar de nacimiento</p>
             <p class="col-md-9">
               <select class="provincias" id="provincias" style="width:90%;" name="">
-                <option>Selecciona una provincia</option>
-
-              </select>
+                <option class="optionProvincias" value= "0">Selecciona una provincia</option>
+              </select><BR><span class=" spanErrorEstilo errorProvincias"></span>
             </p>
 
             <p class="col-md-3 text-form">E-mail</p>
