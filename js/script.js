@@ -169,3 +169,8 @@ window.addEventListener("load", function(){
 
  
 })
+/*fracaso*/
+var iconosMuro= document.querySelector("#meGusta");
+iconosMuro.onclick =function(){
+  alert("anda")
+}
