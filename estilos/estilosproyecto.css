@@ -221,6 +221,12 @@ div.row {
       height: 40px;
       width: 40px;
   }
+
+  @media(max-width: 360px){
+   .noticias div{
+width: 95%;      
+    }}
+
   #post{
     border: none;
     margin: 0.5px;
