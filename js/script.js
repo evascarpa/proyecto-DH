@@ -170,7 +170,14 @@ window.addEventListener("load", function(){
  
 })
 /*fracaso*/
-var iconosMuro= document.querySelector("#meGusta");
-iconosMuro.onclick =function(){
-  alert("anda")
+window.addEventListener("load", function(){
+var corazon= document.getElementById("megusta") onclick="changeImage()" src="/imagenes/megusta.png";
+function changeImage() {
+  var image = document.getElementById('megusta');
+  if (image.src.match("on")) {
+      image.src = "imagenes/megustaRojo.png";
+  } else {
+      image.src = "imagenes/megusta.png";
+  }
 }
+})
