@@ -239,11 +239,15 @@ width: 95%;
   #iconos{
     border: none;
     width: 100%;
-    height: 50px;
+    height: 60px;
     margin: 1px;
     overflow:hidden;
   }
+<<<<<<< HEAD
   #meGustaRojo,#meGusta, #compartir{
+=======
+   #meGusta, #compartir, .button{
+>>>>>>> 7a341147458845b50959d0803bd523a77b22261e
     float:left;
     background: none;
     border: none;
