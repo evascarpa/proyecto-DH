@@ -243,11 +243,10 @@ width: 95%;
     margin: 1px;
     overflow:hidden;
   }
-<<<<<<< HEAD
-  #meGustaRojo,#meGusta, #compartir{
-=======
+
+ 
    #meGusta, #compartir, .button{
->>>>>>> 7a341147458845b50959d0803bd523a77b22261e
+
     float:left;
     background: none;
     border: none;

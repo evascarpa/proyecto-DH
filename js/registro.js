@@ -169,7 +169,7 @@ window.addEventListener("load", function(){
 
  
 })
-/*fracaso*/
+/*fracaso
 window.addEventListener("load", function(){
 var corazon= document.getElementById("megusta") onclick="changeImage()" src="/imagenes/megusta.png";
 function changeImage() {
@@ -180,4 +180,4 @@ function changeImage() {
       image.src = "imagenes/megusta.png";
   }
 }
-})
+})*/
