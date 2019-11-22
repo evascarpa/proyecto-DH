@@ -1,55 +1,11 @@
-/*window.addEventListener("load", function(){
-  provincias.addEventListener("click", function(){
-    fetch("https://apis.datos.gob.ar/georef/api/provincias")
-    .then(function(respuesta){
-        return respuesta.json();
-    })
-    .then(function(data){
-        var provincias = document.querySelector("select#provincias");
-        for( var i=0; i < data.provincias.length; i++){
-        provincias.innerHTML += "<option value ='" +data.provincias[i].id +"'>" + data.provincias[i].nombre + "</option>";
-     }
-
-    })
-    .catch(function(error){
-      console.log(error)
-    });
- });
-});
-
-##############################
-PATRI FIJATE QUE CAMBIE EL CODIGO PORQUE Hacia un addEventListener con click que hacia que no carguen las provincias pues en cada click llamaba al fetch y hay que llamarlo una sola vez cuando se hace el "load"
-INTERVENCION CON AYUDA DE LUIS, ESTO ANTES DE LA ENTREGA LO BORRAMOS, ES SOLO PARA PODER COMPARAR ;) 
-##############################
-*/
-
-window.addEventListener("load", function(){
-    fetch("https://apis.datos.gob.ar/georef/api/provincias")
-    .then(function(respuesta){
-        return respuesta.json();
-    })
-    .then(function(data){
-        var provincias = document.querySelector("select#provincias");
-        for( var i=0; i < data.provincias.length; i++){
-        provincias.innerHTML += "<option value ='" +data.provincias[i].id +"'>" + data.provincias[i].nombre + "</option>";
-     }
-
-    })
-    .catch(function(error){
-      console.log(error)
-    });
-
-});
-
-
 /*VALIDACIONES DEL FORMULARIO DE REGISTRO*/
-window.addEventListener("load", function(){                                           
+window.addEventListener("load", function(){
   /*detectar cuando toco el boton de registro (se envia el formulario)*/
   var btnUnite=document.querySelector(".Unite");
-  btnUnite.addEventListener("click",function(){   
-  
+  btnUnite.addEventListener("click",function(){
+
   var errores=false;
-       
+
   /*tomar los datos del formulario*/
   var nombre=document.querySelector(".inputNombre");
   var apellido=document.querySelector(".inputApellido");
@@ -58,7 +14,7 @@ window.addEventListener("load", function(){
   var contrasenia=document.querySelector(".inputContrasenia")
   var confirmContrasenia=document.querySelector(".inputConfirmContrasenia");
   var textSobreVos=document.querySelector(".inputTextSobreVos");
-  
+
 
   /*tomo los span de errores del formulario */
   var errorNombre=document.querySelector(".error-inputNombre");
@@ -68,7 +24,7 @@ window.addEventListener("load", function(){
   var errorContrasenia=document.querySelector(".error-contrasenia");
   var errorConfirmContrasenia=document.querySelector(".error-confirmContrasenia");
   var errorTextSobreVos=document.querySelector(".error-inputTextSobreVos");
-  
+
   /*por cada dato voy a validar lo que necesite */
    if(nombre.value==""){
     errorNombre.innerHTML="Tu nombre es obligatorio";
@@ -95,7 +51,7 @@ window.addEventListener("load", function(){
     errorApellido.innerHTML="";
     apellido.style.border="3px solid rgb(144,197,0)";
   }
-  
+
   if(provincias.value == 0){
     errorProvincias.innerHTML="Seleccioná una provincia";
     provincias.style.border="3px solid rgb(255,153,18)";
@@ -158,7 +114,7 @@ window.addEventListener("load", function(){
     errorTextSobreVos.innerHTML="";
     textSobreVos.style.border="3px solid rgb(144,197,0)";
   }
-  
+
   /*si todo esta bien , le doy la bienvenida */
   if(!errores){
     alert("Bienvenido a ClubBP!! :) ");
@@ -167,7 +123,7 @@ window.addEventListener("load", function(){
 
   })
 
- 
+
 })
 /*fracaso
 window.addEventListener("load", function(){
@@ -181,3 +137,4 @@ function changeImage() {
   }
 }
 })*/
+})
