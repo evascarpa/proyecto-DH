@@ -87,33 +87,51 @@
                                             <button id="meGusta" type="button" name="button"><img class="botonmegusta" src="imagenes/megusta.png"></button>
                                             
                                             
-                                            <button id="compartir" type="button" name="button"><img src="imagenes/compartir.png"></button>
+                                            <button id="compartir" type="button" name="button" data-toggle="modal" data-target="#compartirModal"><img src="imagenes/compartir.png"></button>
                                         
+                                            <div class="modal fade" id="compartirModal" tabindex="-1" role="dialog" aria-labelledby="compartirModalLabel" aria-hidden="true">
+                                              <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                  <div class="modal-header">
+                                                
+                                                    <textarea class="form-control" id="message-text" placeholder="Usuario o email..." style="width:90%;"></textarea>
+                                                    
+                                                  </div>
+                                                  <div class="modal-body">
+                                                    
+                                                <h6>¿Deseas compartir ésta publicación?</h6>
+                                                  </div>
+                                                  <div class="modal-footer">
+                                                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cerrar</button>
+                                                    <button type="button" class="btn btn-primary">Compartir</button>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
 
-                                        <button type="button" class="button" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo"><img src="imagenes/dialogo.png"></button>
-                                       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+
+
+
+
+                                        <button type="button" class="button" data-toggle="modal" data-target="#comentarModal" ><img src="imagenes/dialogo.png"></button>
+
+                                        <div class="modal fade" id="comentarModal" tabindex="-1" role="dialog" aria-labelledby="comentarModalLabel" aria-hidden="true">
                                           <div class="modal-dialog" role="document">
                                             <div class="modal-content">
                                               <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">Comenta</h5>
+                                            
+                                                <textarea class="form-control" id="message-text" placeholder="Usuario o email..." style="width:90%;"></textarea>
                                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                   <span aria-hidden="true">&times;</span>
                                                 </button>
                                               </div>
                                               <div class="modal-body">
-                                                <form>
-                                                  <div class="form-group">
-                                                    <label for="recipient-name" class="col-form-label">Logueo:</label>
-                                                    <input type="text" class="form-control" id="recipient-name">
-                                                  </div>
-                                                  <div class="form-group">
-                                                    <label for="message-text" class="col-form-label">Mensaje:</label>
-                                                    <textarea class="form-control" id="message-text"></textarea>
-                                                  </div>
-                                                </form>
+                                                
+                                                <textarea class="form-control" id="message-text" placeholder="Comenta ésta Publicación..." style="width:90%;"></textarea>
                                               </div>
                                               <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                                <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cerrar</button>
                                                 <button type="button" class="btn btn-primary">Enviar</button>
                                               </div>
                                             </div>
@@ -133,7 +151,7 @@
                                             <post ><img src="imagenes/frase02.jpg"></post>
                                           </div>
                                           <div id="iconos">
-                                              <button id="meGusta" type="button" name="button"><abbr title="amé"><img src="imagenes/megusta.png"></abbr></button>
+                                            <button id="meGusta" type="button" name="button"><img class="botonmegusta" src="imagenes/megusta.png"></button>
                                               <button id="compartir" type="button" name="button"><abbr title="comparto"><img src="imagenes/compartir.png"></abbr></button>
                                           </div>
                                       </div>
@@ -147,7 +165,7 @@
                                               <post ><img src="imagenes/frase03.jpg"></post>
                                             </div>
                                             <div id="iconos">
-                                                <button id="meGusta" type="button" name="button"><abbr title="amé"><img src="imagenes/megusta.png"></abbr></button>
+                                              <button id="meGusta" type="button" name="button"><img class="botonmegusta" src="imagenes/megusta.png"></button>
                                                 <button id="compartir" type="button" name="button"><abbr title="comparto"><img src="imagenes/compartir.png"></abbr></button>
                                             </div>
                                         </div>
@@ -162,7 +180,7 @@
                                                 <post ><img src="imagenes/frase04.jpg"></post>
                                               </div>
                                               <div id="iconos">
-                                                  <button id="meGusta" type="button" name="button" ><abbr title="amé"><img src="imagenes/megusta.png"></abbr></button>
+                                                <button id="meGusta" type="button" name="button"><img class="botonmegusta" src="imagenes/megusta.png"></button>
                                                   <button id="compartir" type="button" name="button"><abbr title="comparto"><img src="imagenes/compartir.png"></abbr></button>
                                               </div>
                                           </div>
@@ -177,7 +195,7 @@
                                                   <post ><img src="imagenes/frase05.jpg"></post>
                                                 </div>
                                                 <div id="iconos">
-                                                    <button id="meGusta" type="button" name="button" ><abbr title="amé"><img src="imagenes/megusta.png"></abbr></button>
+                                                  <button id="meGusta" type="button" name="button"><img class="botonmegusta" src="imagenes/megusta.png"></button>
                                                     <button id="compartir" type="button" name="button"><abbr title="comparto"><img src="imagenes/compartir.png"></abbr></button>
                                                 </div>
                                             </div>
@@ -192,7 +210,7 @@
                                                     <post ><img src="imagenes/frase06.jpg"></post>
                                                   </div>
                                                   <div id="iconos">
-                                                      <button id="meGusta" type="button" name="button"><abbr title="amé"><img src="imagenes/megusta.png"></abbr></button>
+                                                    <button id="meGusta" type="button" name="button"><abbr title="amé"></abbr><img class="botonmegusta" src="imagenes/megusta.png"></abbr></button>
                                                       <button id="compartir" type="button" name="button"><abbr title="comparto"><img src="imagenes/compartir.png"></abbr></button>
                                                   </div>
                                               </div>

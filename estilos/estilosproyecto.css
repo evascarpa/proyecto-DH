@@ -201,6 +201,16 @@ div.row {
       overflow:hidden;
 
   }
+#comentarModal, #compartirModal{
+    border:none;
+    margin: 0px;
+    width:400px;
+    height: 420px;
+    background-color:none;
+    padding: 0px;
+    margin: 30px;
+}
+
 
   .noticias div {
     border: #9AC00F 1px solid;
