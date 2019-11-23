@@ -310,12 +310,7 @@ width: 95%;
 
   /*----------aca empieza el perfil----------*/
 
-  body.perfil{
-    background-image: url(../imagenes/fondo2ab.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: unset;
-  }
+
 
   header .registro div img{
   max-width:100%;
@@ -350,9 +345,10 @@ div.fotito-de-perfil{
 
   margin-bottom: 20px;
   width: 100%;
+  border: #9AC00F 3px solid;
+ }
 
-
-  }
+ 
 
   #divdefoto{
     border: none;
@@ -390,7 +386,59 @@ div.fotito-de-perfil{
     
   }
 
+ 
+  @media (max-width: 762px){
+    .fotito-de-perfil{
+     max-width: 80%;
+     margin-left: 60px;
+      }
 
+      
+
+ 
+  }
+ 
+ 
+ 
+  @media (max-width: 576px){
+   #posteos{
+     margin-left: 25%;
+     }
+    .fotito-de-perfil{
+      max-width: 50%;
+      margin-left: 150px;
+       }
+ 
+ }
+ 
+ @media (max-width: 500px){
+  .fotito-de-perfil{
+   max-width: 40%;
+   margin-left: 125px;
+    }
+   #posteos{
+     margin-left: 18%;
+     }
+ 
+ 
+  @media (max-width: 400px){
+   .fotito-de-perfil{
+    max-width: 40%;
+    margin-left: 110px;
+     }
+    #posteos{
+      margin-left: 13%;
+      }
+  
+ }
+ @media (max-width: 300px){
+   .fotito-de-perfil{
+    max-width: 40%;
+    margin-left: 85px;
+   
+     }
+ }
+ 
 
 
 
