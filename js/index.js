@@ -1,6 +1,8 @@
 /*VALIDACIONES DEL FORMULARIO INDEX*/
 window.addEventListener('load', function(){
   /*detectar cuando toco el boton de enviar (se envia el formulario)*/
+
+
   var btnLoguearme=document.querySelector(".Loguearme");
   btnLoguearme.addEventListener("click",function(){
 
@@ -45,6 +47,7 @@ window.addEventListener('load', function(){
       /*si todo esta bien , le doy la bienvenida */
       if(!errores){
         alert("Bienvenido a ClubBP!! :) ");
+        
       }
 
 
