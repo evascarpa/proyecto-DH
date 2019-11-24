@@ -309,7 +309,12 @@ width: 95%;
 
   /*----------aca empieza el perfil----------*/
 
-
+  body.perfil{
+    background-image: url(../imagenes/fondo2ab.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: unset;
+  }
 
   header .registro div img{
   max-width:100%;
@@ -344,20 +349,11 @@ div.fotito-de-perfil{
 
   margin-bottom: 20px;
   width: 100%;
-  border: #9AC00F 3px solid;
- }
 
- 
-
-  #divdefoto{
-    border: none;
-    margin: 0.5px;
-    width: 100%;
-    height: 240px;
-    float: left;
-    box-sizing: border-box;
 
   }
+
+
   div .posteos .img{
       width: 220px;
       height: 220px;
@@ -365,79 +361,13 @@ div.fotito-de-perfil{
 
   }
 #posteos{
-  margin-top: 10px;
-  border: #9AC00F 1px solid;
-  padding: 10px;
-  margin: 20px;
-  box-sizing: border-box 100px;
-  width:260px;
-  height: 300px;
-  float:left;
-  margin-left:5%;
-  box-sizing:border-box;
-  font-size: 15pt;
-  overflow:hidden;
-  background-color: rgb(224, 247, 224);
-
+  margin-top: 10px;;
 }
   div .posteos{
       margin-bottom: 10px;
-    
   }
 
- 
-  @media (max-width: 762px){
-    .fotito-de-perfil{
-     max-width: 80%;
-     margin-left: 60px;
-      }
 
-      
-
- 
-  }
- 
- 
- 
-  @media (max-width: 576px){
-   #posteos{
-     margin-left: 25%;
-     }
-    .fotito-de-perfil{
-      max-width: 50%;
-      margin-left: 150px;
-       }
- 
- }
- 
- @media (max-width: 500px){
-  .fotito-de-perfil{
-   max-width: 40%;
-   margin-left: 125px;
-    }
-   #posteos{
-     margin-left: 18%;
-     }
- 
- 
-  @media (max-width: 400px){
-   .fotito-de-perfil{
-    max-width: 40%;
-    margin-left: 110px;
-     }
-    #posteos{
-      margin-left: 13%;
-      }
-  
- }
- @media (max-width: 300px){
-   .fotito-de-perfil{
-    max-width: 40%;
-    margin-left: 85px;
-   
-     }
- }
- 
 
 
 
