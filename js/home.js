@@ -1,4 +1,5 @@
-var botonesCorazon = document.querySelectorAll(".botonmegusta");
+window.addEventListener("load", function(){
+    var botonesCorazon = document.querySelectorAll(".botonmegusta");
 for (var i = 0; i < botonesCorazon.length; i++)
 {
         botonesCorazon[i].addEventListener("click", function() {
@@ -11,4 +12,4 @@ for (var i = 0; i < botonesCorazon.length; i++)
 }
 
 
-
+})

@@ -203,7 +203,6 @@ div.row {
   }
 #comentarModal, #compartirModal{
     border:none;
-    margin: 0px;
     width:400px;
     height: 420px;
     background-color:none;
