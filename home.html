@@ -75,7 +75,7 @@
                                
                                 <main class="noticias">
                                     
-                                    <div>
+                                    <div class="divNoticias">
                                       <img src="imagenes/01.png">
                                       María Carolina
                                       <a href="perfil.html">Seguir</a>
@@ -86,50 +86,57 @@
                                         <div id="iconos">
                                             <button id="meGusta" type="button" name="button"><img class="botonmegusta" src="imagenes/megusta.png"></button>
                                             
-                                            
+                                            <!--Desde aca boton de compartir con ventana emergente-->
                                             <button id="compartir" type="button" name="button" data-toggle="modal" data-target="#compartirModal"><img src="imagenes/compartir.png"></button>
                                         
                                             <div class="modal fade" id="compartirModal" tabindex="-1" role="dialog" aria-labelledby="compartirModalLabel" aria-hidden="true">
                                               <div class="modal-dialog" role="document">
-                                                <div class="modal-content">
-                                                  <div class="modal-header">
+                                                <div class="modal-content emergenteDivRompeBolas">
+                                                  <div class="modal-header emergenteDivRompeBolas">
                                                 
-                                                    <textarea class="form-control" id="message-text" placeholder="Usuario o email..." style="width:90%;"></textarea>
-                                                    
                                                   </div>
-                                                  <div class="modal-body">
+                                                  <div class="modal-body ">
                                                     
-                                                <h6>¿Deseas compartir ésta publicación?</h6>
+                                                <h6>  ¿Deseas compartir ésta publicación?</h6>
                                                   </div>
-                                                  <div class="modal-footer">
-                                                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cerrar</button>
-                                                    <button type="button" class="btn btn-primary">Compartir</button>
+                                                  <div class="modal-footer emergenteDivRompeBolas">
+                                                    <button type="button" class=" botonesGeneral emergenteBtnCerrar" data-dismiss="modal">Cerrar</button>
+                                                    <br>
+                                                    <br>
+                                                    <button type="button" class=" botonesGeneral emergenteBtnEnviar">Compartir</button>
                                                   </div>
                                                 </div>
                                               </div>
                                             </div>
-
+                                               <!--fin del  boton de compartir-->
                                         
-                                          
-                                        <button type="button" class="button" data-toggle="modal" data-target="#comentarModal" ><img src="imagenes/dialogo.png"></button>
-                                            
-                                        <!--Aca empieza ventana emergente-->
-
-                                        <div class="modal fade" id="comentarModal" tabindex="-1" role="dialog" aria-labelledby="comentarModalLabel" aria-hidden="true">                              
+                                         <!--Aca empieza boton de comentar emergente-->  
+                                        <button type="button" class="button" data-toggle="modal" data-target="#comentarModal" ><img src="imagenes/dialogo.png"></button>                                       
+                                        <div class="modal fade emergenteDivRompeBolas" id="comentarModal" tabindex="-1" role="dialog" aria-labelledby="comentarModalLabel" aria-hidden="true">                        
+                                            <div class="modal-dialog emergenteDivRompeBolas ">
+                                                <div class="modal-content emergenteDivRompeBolas ">
                                                 <textarea class="emergenteMail" id="message-text" placeholder="Usuario o email..." ></textarea>
+                                                <br>
                                                 <textarea class="emergenteComentar" id="message-text" placeholder="Comenta ésta Publicación..." ></textarea>
+                                                 <br>                              
                                                 <button type="button" class="emergenteBtnEnviar botonesGeneral">Enviar</button>
-                                                <button type="button" class="emergenteBtnCerrar botonesGeneral ">Cerrar</button>
-                                        </div>
-                                          <!--Aca termina  ventana emergente-->  
-                                        
-
+                                                <button type="button" data-dismiss="modal" 
+                                                class="emergenteBtnCerrar botonesGeneral ">Cerrar</button>
+                                               </div>
+                                          
+                                           </div>
+                                       </div>
                                       </div>  
-                                    </div>
+                                    </div>  
+                                          <!--Aca termina  ventana emergente para comentar-->  
+
+
+
+
+
+                                     
                                    
-                                    
-                        
-                                    <div>
+                                    <div  class="divNoticias">
                                         <img src="imagenes/02.png">
                                         Fulana Del Campo
                                         <a href="#">Seguir</a>
@@ -139,11 +146,53 @@
                                           </div>
                                           <div id="iconos">
                                             <button id="meGusta" type="button" name="button"><img class="botonmegusta" src="imagenes/megusta.png"></button>
-                                              <button id="compartir" type="button" name="button"><abbr title="comparto"><img src="imagenes/compartir.png"></abbr></button>
-                                          </div>
-                                      </div>
+
+                                              <!--Desde aca boton de compartir con ventana emergente-->
+                                            <button id="compartir" type="button" name="button" data-toggle="modal" data-target="#compartirModal"><img src="imagenes/compartir.png"></button>
+                                        
+                                            <div class="modal fade" id="compartirModal" tabindex="-1" role="dialog" aria-labelledby="compartirModalLabel" aria-hidden="true">
+                                              <div class="modal-dialog" role="document">
+                                                <div class="modal-content emergenteDivRompeBolas">
+                                                  <div class="modal-header emergenteDivRompeBolas">
+                                                
+                                                  </div>
+                                                  <div class="modal-body ">
+                                                    
+                                                <h6>  ¿Deseas compartir ésta publicación?</h6>
+                                                  </div>
+                                                  <div class="modal-footer emergenteDivRompeBolas">
+                                                    <button type="button" class=" botonesGeneral emergenteBtnCerrar" data-dismiss="modal">Cerrar</button>
+                                                    <br>
+                                                    <br>
+                                                    <button type="button" class=" botonesGeneral emergenteBtnEnviar">Compartir</button>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                               <!--fin del  boton de compartir-->
+                                        
+                                         <!--Aca empieza boton de comentar emergente-->  
+                                        <button type="button" class="button" data-toggle="modal" data-target="#comentarModal" ><img src="imagenes/dialogo.png"></button>                                       
+                                        <div class="modal fade emergenteDivRompeBolas" id="comentarModal" tabindex="-1" role="dialog" aria-labelledby="comentarModalLabel" aria-hidden="true">                        
+                                            <div class="modal-dialog emergenteDivRompeBolas ">
+                                                <div class="modal-content emergenteDivRompeBolas ">
+                                                <textarea class="emergenteMail" id="message-text" placeholder="Usuario o email..." ></textarea>
+                                                <br>
+                                                <textarea class="emergenteComentar" id="message-text" placeholder="Comenta ésta Publicación..." ></textarea>
+                                                 <br>                              
+                                                <button type="button" class="emergenteBtnEnviar botonesGeneral">Enviar</button>
+                                                <button type="button" data-dismiss="modal" 
+                                                class="emergenteBtnCerrar botonesGeneral ">Cerrar</button>
+                                               </div>
+                                          
+                                           </div>
+                                       </div> 
+                                       </div> 
+                                    </div>
+                                          <!--Aca termina  ventana emergente para comentar-->  
+
                         
-                                      <div>
+                                      <div  class="divNoticias">
                                           <img src="imagenes/03.png">
                                           Carlos Vengador
                                           <a href="#">Seguir</a>
@@ -153,12 +202,54 @@
                                             </div>
                                             <div id="iconos">
                                               <button id="meGusta" type="button" name="button"><img class="botonmegusta" src="imagenes/megusta.png"></button>
-                                                <button id="compartir" type="button" name="button"><abbr title="comparto"><img src="imagenes/compartir.png"></abbr></button>
+
+                                               <!--Desde aca boton de compartir con ventana emergente-->
+                                            <button id="compartir" type="button" name="button" data-toggle="modal" data-target="#compartirModal"><img src="imagenes/compartir.png"></button>
+                                        
+                                            <div class="modal fade" id="compartirModal" tabindex="-1" role="dialog" aria-labelledby="compartirModalLabel" aria-hidden="true">
+                                              <div class="modal-dialog" role="document">
+                                                <div class="modal-content emergenteDivRompeBolas">
+                                                  <div class="modal-header emergenteDivRompeBolas">
+                                                
+                                                  </div>
+                                                  <div class="modal-body ">
+                                                    
+                                                <h6>  ¿Deseas compartir ésta publicación?</h6>
+                                                  </div>
+                                                  <div class="modal-footer emergenteDivRompeBolas">
+                                                    <button type="button" class=" botonesGeneral emergenteBtnCerrar" data-dismiss="modal">Cerrar</button>
+                                                    <br>
+                                                    <br>
+                                                    <button type="button" class=" botonesGeneral emergenteBtnEnviar">Compartir</button>
+                                                  </div>
+                                                </div>
+                                              </div>
                                             </div>
-                                        </div>
+                                               <!--fin del  boton de compartir-->
+                                        
+                                         <!--Aca empieza boton de comentar emergente-->  
+                                        <button type="button" class="button" data-toggle="modal" data-target="#comentarModal" ><img src="imagenes/dialogo.png"></button>                                       
+                                        <div class="modal fade emergenteDivRompeBolas" id="comentarModal" tabindex="-1" role="dialog" aria-labelledby="comentarModalLabel" aria-hidden="true">                        
+                                            <div class="modal-dialog emergenteDivRompeBolas ">
+                                                <div class="modal-content emergenteDivRompeBolas ">
+                                                <textarea class="emergenteMail" id="message-text" placeholder="Usuario o email..." ></textarea>
+                                                <br>
+                                                <textarea class="emergenteComentar" id="message-text" placeholder="Comenta ésta Publicación..." ></textarea>
+                                                 <br>                              
+                                                <button type="button" class="emergenteBtnEnviar botonesGeneral">Enviar</button>
+                                                <button type="button" data-dismiss="modal" 
+                                                class="emergenteBtnCerrar botonesGeneral ">Cerrar</button>
+                                               </div>
+                                          
+                                           </div>
+                                       </div>
+                                      </div>  
+                                    </div>  
+                                          <!--Aca termina  ventana emergente para comentar-->  
+
+
                         
-                        
-                                        <div>
+                                        <div  class="divNoticias">
                                             <img src="imagenes/04.png">
                                             Karina Katrina
                                             <a href="#">Seguir</a>
@@ -168,12 +259,54 @@
                                               </div>
                                               <div id="iconos">
                                                 <button id="meGusta" type="button" name="button"><img class="botonmegusta" src="imagenes/megusta.png"></button>
-                                                  <button id="compartir" type="button" name="button"><abbr title="comparto"><img src="imagenes/compartir.png"></abbr></button>
+
+                                                  <!--Desde aca boton de compartir con ventana emergente-->
+                                            <button id="compartir" type="button" name="button" data-toggle="modal" data-target="#compartirModal"><img src="imagenes/compartir.png"></button>
+                                        
+                                            <div class="modal fade" id="compartirModal" tabindex="-1" role="dialog" aria-labelledby="compartirModalLabel" aria-hidden="true">
+                                              <div class="modal-dialog" role="document">
+                                                <div class="modal-content emergenteDivRompeBolas">
+                                                  <div class="modal-header emergenteDivRompeBolas">
+                                                
+                                                  </div>
+                                                  <div class="modal-body ">
+                                                    
+                                                <h6>  ¿Deseas compartir ésta publicación?</h6>
+                                                  </div>
+                                                  <div class="modal-footer emergenteDivRompeBolas">
+                                                    <button type="button" class=" botonesGeneral emergenteBtnCerrar" data-dismiss="modal">Cerrar</button>
+                                                    <br>
+                                                    <br>
+                                                    <button type="button" class=" botonesGeneral emergenteBtnEnviar">Compartir</button>
+                                                  </div>
+                                                </div>
                                               </div>
-                                          </div>
+                                            </div>
+                                               <!--fin del  boton de compartir-->
+                                        
+                                         <!--Aca empieza boton de comentar emergente-->  
+                                        <button type="button" class="button" data-toggle="modal" data-target="#comentarModal" ><img src="imagenes/dialogo.png"></button>                                       
+                                        <div class="modal fade emergenteDivRompeBolas" id="comentarModal" tabindex="-1" role="dialog" aria-labelledby="comentarModalLabel" aria-hidden="true">                        
+                                            <div class="modal-dialog emergenteDivRompeBolas ">
+                                                <div class="modal-content emergenteDivRompeBolas ">
+                                                <textarea class="emergenteMail" id="message-text" placeholder="Usuario o email..." ></textarea>
+                                                <br>
+                                                <textarea class="emergenteComentar" id="message-text" placeholder="Comenta ésta Publicación..." ></textarea>
+                                                 <br>                              
+                                                <button type="button" class="emergenteBtnEnviar botonesGeneral">Enviar</button>
+                                                <button type="button" data-dismiss="modal" 
+                                                class="emergenteBtnCerrar botonesGeneral ">Cerrar</button>
+                                               </div>
+                                          
+                                           </div>
+                                       </div>
+                                      </div>  
+                                    </div>  
+                                          <!--Aca termina  ventana emergente para comentar-->  
+
+
                         
-                        
-                                          <div>
+                                          <div  class="divNoticias">
                                               <img src="imagenes/05.png">
                                               Malvina Malvada
                                               <a href="#">Seguir</a>
@@ -183,12 +316,54 @@
                                                 </div>
                                                 <div id="iconos">
                                                   <button id="meGusta" type="button" name="button"><img class="botonmegusta" src="imagenes/megusta.png"></button>
-                                                    <button id="compartir" type="button" name="button"><abbr title="comparto"><img src="imagenes/compartir.png"></abbr></button>
+
+                                                    <!--Desde aca boton de compartir con ventana emergente-->
+                                            <button id="compartir" type="button" name="button" data-toggle="modal" data-target="#compartirModal"><img src="imagenes/compartir.png"></button>
+                                        
+                                            <div class="modal fade" id="compartirModal" tabindex="-1" role="dialog" aria-labelledby="compartirModalLabel" aria-hidden="true">
+                                              <div class="modal-dialog" role="document">
+                                                <div class="modal-content emergenteDivRompeBolas">
+                                                  <div class="modal-header emergenteDivRompeBolas">
+                                                
+                                                  </div>
+                                                  <div class="modal-body ">
+                                                    
+                                                <h6>  ¿Deseas compartir ésta publicación?</h6>
+                                                  </div>
+                                                  <div class="modal-footer emergenteDivRompeBolas">
+                                                    <button type="button" class=" botonesGeneral emergenteBtnCerrar" data-dismiss="modal">Cerrar</button>
+                                                    <br>
+                                                    <br>
+                                                    <button type="button" class=" botonesGeneral emergenteBtnEnviar">Compartir</button>
+                                                  </div>
                                                 </div>
+                                              </div>
                                             </div>
+                                               <!--fin del  boton de compartir-->
+                                        
+                                         <!--Aca empieza boton de comentar emergente-->  
+                                        <button type="button" class="button" data-toggle="modal" data-target="#comentarModal" ><img src="imagenes/dialogo.png"></button>                                       
+                                        <div class="modal fade emergenteDivRompeBolas" id="comentarModal" tabindex="-1" role="dialog" aria-labelledby="comentarModalLabel" aria-hidden="true">                        
+                                            <div class="modal-dialog emergenteDivRompeBolas ">
+                                                <div class="modal-content emergenteDivRompeBolas ">
+                                                <textarea class="emergenteMail" id="message-text" placeholder="Usuario o email..." ></textarea>
+                                                <br>
+                                                <textarea class="emergenteComentar" id="message-text" placeholder="Comenta ésta Publicación..." ></textarea>
+                                                 <br>                              
+                                                <button type="button" class="emergenteBtnEnviar botonesGeneral">Enviar</button>
+                                                <button type="button" data-dismiss="modal" 
+                                                class="emergenteBtnCerrar botonesGeneral ">Cerrar</button>
+                                               </div>
+                                          
+                                           </div>
+                                       </div>
+                                      </div>  
+                                    </div>  
+                                          <!--Aca termina  ventana emergente para comentar-->  
+
+
                         
-                        
-                                            <div>
+                                            <div  class="divNoticias">
                                                 <img src="imagenes/06.png">
                                                 Esteban Tigre
                                                 <a href="#">Seguir</a>
@@ -198,9 +373,52 @@
                                                   </div>
                                                   <div id="iconos">
                                                     <button id="meGusta" type="button" name="button"><abbr title="amé"></abbr><img class="botonmegusta" src="imagenes/megusta.png"></abbr></button>
-                                                      <button id="compartir" type="button" name="button"><abbr title="comparto"><img src="imagenes/compartir.png"></abbr></button>
+
+                                                       <!--Desde aca boton de compartir con ventana emergente-->
+                                            <button id="compartir" type="button" name="button" data-toggle="modal" data-target="#compartirModal"><img src="imagenes/compartir.png"></button>
+                                        
+                                            <div class="modal fade" id="compartirModal" tabindex="-1" role="dialog" aria-labelledby="compartirModalLabel" aria-hidden="true">
+                                              <div class="modal-dialog" role="document">
+                                                <div class="modal-content emergenteDivRompeBolas">
+                                                  <div class="modal-header emergenteDivRompeBolas">
+                                                
                                                   </div>
+                                                  <div class="modal-body ">
+                                                    
+                                                <h6>  ¿Deseas compartir ésta publicación?</h6>
+                                                  </div>
+                                                  <div class="modal-footer emergenteDivRompeBolas">
+                                                    <button type="button" class=" botonesGeneral emergenteBtnCerrar" data-dismiss="modal">Cerrar</button>
+                                                    <br>
+                                                    <br>
+                                                    <button type="button" class=" botonesGeneral emergenteBtnEnviar">Compartir</button>
+                                                  </div>
+                                                </div>
                                               </div>
+                                            </div>
+                                               <!--fin del  boton de compartir-->
+                                        
+                                         <!--Aca empieza boton de comentar emergente-->  
+                                        <button type="button" class="button" data-toggle="modal" data-target="#comentarModal" ><img src="imagenes/dialogo.png"></button>                                       
+                                        <div class="modal fade emergenteDivRompeBolas" id="comentarModal" tabindex="-1" role="dialog" aria-labelledby="comentarModalLabel" aria-hidden="true">                        
+                                            <div class="modal-dialog emergenteDivRompeBolas ">
+                                                <div class="modal-content emergenteDivRompeBolas ">
+                                                <textarea class="emergenteMail" id="message-text" placeholder="Usuario o email..." ></textarea>
+                                                <br>
+                                                <textarea class="emergenteComentar" id="message-text" placeholder="Comenta ésta Publicación..." ></textarea>
+                                                 <br>                              
+                                                <button type="button" class="emergenteBtnEnviar botonesGeneral">Enviar</button>
+                                                <button type="button" data-dismiss="modal" 
+                                                class="emergenteBtnCerrar botonesGeneral ">Cerrar</button>
+                                               </div>
+                                          
+                                           </div>
+                                       </div>
+                                      </div>  
+                                    </div>  
+                                          <!--Aca termina  ventana emergente para comentar-->  
+
+
                         
                                 </main>
 
