@@ -40,10 +40,9 @@
             </p>
             <p class="col-md-3 text-form">Fecha de nacimiento</p>
             <p class="col-md-9">
-              <input type="date">      <!-- CON EL IMPUT TYPE "DATE" APARECE EL CALENDARIO DESPLEGABLE DONDE FIGURAN LOS AÑOS POR SIEMPRE, ES OTRA OPCION EN LUGAR DE PONER TODO MANUAL O CONSEGUIR UN FETCH/ DEJO FUNCIONANDO AMBAS OPCIONES PARA QUE VEAN QUE LES GUSTA MAS.   -->
 
-              <select class="dia" name="dia">
-                <option selected hidden>Día</option>
+              <select class="dia" id="dia" name="dia">
+                <option selected hidden value="0">Día</option>
                 <option value="01">01</option>
                 <option value="02">02</option>
                 <option value="03">03</option>
@@ -76,8 +75,8 @@
                 <option value="30">30</option>
                 <option value="31">31</option>
               </select>
-              <select class="mes" name="mes">
-                <option selected hidden>Mes</option>
+              <select class="mes" id="mes" name="mes">
+                <option selected hidden value="0">Mes</option>
                 <option value="01">Enero</option>
                 <option value="02">Febrero</option>
                 <option value="03">Marzo</option>
@@ -91,8 +90,8 @@
                 <option value="11">Noviembre</option>
                 <option value="12">Diciembre</option>
               </select>
-              <select class="anio" name="anio">
-                <option selected hidden>Año</option>
+              <select class="anio" id="anio" name="anio">
+                <option selected hidden value="0">Año</option>
                 <option value="2010">2010</option>
                 <option value="2009">2009</option>
                 <option value="2008">2008</option>
@@ -154,7 +153,7 @@
                 <option value="1952">1952</option>
                 <option value="1951">1951</option>
                 <option value="1950">1950</option>
-              </select>
+              </select><span class="spanErrorEstilo errorFecha"></span>
 
 
             </p>
@@ -163,7 +162,7 @@
             <p class="col-md-9">
               <select class="provincias" id="provincias" style="width:90%;" name="">
                 <option class="optionProvincias" value= "0">Selecciona una provincia</option>
-              </select><BR><span class=" spanErrorEstilo errorProvincias"></span>
+              </select><br><span class=" spanErrorEstilo errorProvincias"></span>
             </p>
 
             <p class="col-md-3 text-form">E-mail</p>
