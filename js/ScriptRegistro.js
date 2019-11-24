@@ -1,28 +1,3 @@
-/*window.addEventListener("load", function(){
-  provincias.addEventListener("click", function(){
-    fetch("https://apis.datos.gob.ar/georef/api/provincias")
-    .then(function(respuesta){
-        return respuesta.json();
-    })
-    .then(function(data){
-        var provincias = document.querySelector("select#provincias");
-        for( var i=0; i < data.provincias.length; i++){
-        provincias.innerHTML += "<option value ='" +data.provincias[i].id +"'>" + data.provincias[i].nombre + "</option>";
-     }
-
-    })
-    .catch(function(error){
-      console.log(error)
-    });
- });
-});
-
-##############################
-PATRI FIJATE QUE CAMBIE EL CODIGO PORQUE Hacia un addEventListener con click que hacia que no carguen las provincias pues en cada click llamaba al fetch y hay que llamarlo una sola vez cuando se hace el "load"
-INTERVENCION CON AYUDA DE LUIS, ESTO ANTES DE LA ENTREGA LO BORRAMOS, ES SOLO PARA PODER COMPARAR ;)
-##############################
-*/
-
 window.addEventListener("load", function(){
     fetch("https://apis.datos.gob.ar/georef/api/provincias")
     .then(function(respuesta){
@@ -169,25 +144,3 @@ window.addEventListener("load", function(){
 
 
 })
-/*fracaso
-window.addEventListener("load", function(){
-var corazon= document.getElementById("megusta") onclick="changeImage()" src="/imagenes/megusta.png";
-function changeImage() {
-  var image = document.getElementById('megusta');
-  if (image.src.match("on")) {
-      image.src = "imagenes/megustaRojo.png";
-  } else {
-      image.src = "imagenes/megusta.png";
-  }
-}
-
-$('#exampleModal').on('show.bs.modal', function (event) {
-  var button = $(event.relatedTarget) //Botón que activó el modal
-  var recipient = button.data('whatever') // Extraer información de los atributos data- *
-  // Si es necesario, puede iniciar una solicitud AJAX aquí (y luego realizar la actualización en una devolución de llamada).
-  // Actualiza el contenido del modal. Usaremos jQuery aquí, pero en su lugar podría usar una biblioteca de enlace de datos u otros métodos.
-  var modal = $(this)
-  modal.find('.modal-title').text('New message to ' + recipient)
-  modal.find('.modal-body input').val(recipient)
-})
-}) */
