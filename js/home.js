@@ -13,3 +13,7 @@ for (var i = 0; i < botonesCorazon.length; i++)
 
 
 })
+window.addEventListener("load", function(){
+    var emergenteBtnCerrar=document.querySelector(".emergenteBtnCerrar")
+
+})
