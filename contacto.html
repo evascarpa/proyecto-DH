@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contacto</title>
-    <script src="js/contacto.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos\estilosproyecto.css">
 </head>
 <body>
@@ -44,49 +43,50 @@
                 <div class="col-md-6 offset-md-3 formulario">
                     <form class="row" action="home.html" method="POST">
                         <p class="col-md-2">
-                          <label for="nombre" >Nombre</label>
+                          <label for="nombre">Nombre</label>
                         </p>
                         <p class="col-md-10">
-                          <input class="nombre" type="text" style="width:90%" name="Nombre"><br><span class="spanErrorEstilo error-inputNombre"></span>
-                        </p>
-                        <p class="col-md-2">
-                          <label for="apellido">Apellido</label>
-                        </p>
-                        <p class="col-md-10">
-                          <input class="apellido" type="text" style="width:90%"; name="Apellido"><br><span class="spanErrorEstilo error-inputApellido"></span>
+                          <input type="text" style="width:90%"; name="Nombre">
                         </p>
                         <p class="col-md-2">
                           <label for="asunto">Asunto</label>
                         </p>
                         <p class="col-md-10">
-                          <input class="asunto" type="text" style="width:90%;" name="Asunto"><br><span class="spanErrorEstilo error-inputAsunto"></span>
+                          <input type="text" style="width:90%;" name="Asumto">
                         </p>
                         <p class="col-md-2">
                           <label for="email">Mail</label>
                         </p>
                         <p class="col-md-10">
-                          <input class="email" type="email" style="width:90%;" name="mail"><br><span class="spanErrorEstilo error-inputEmail"></span>
+                          <input type="email" style="width:90%;" name="mail">
+                        </p>
+                        <p class="col-md-2">
+                          <label for="celular">Celular</label>
+                        </p>
+                        <p class="col-md-10">
+                          <input type="text" style="width:90%;" name="tel">
                         </p>
                         <p class="col-md-2">
                           <label for="udn">UDN</label>
                         </p>
                         <p class="col-md-10">
+
                           <select name="" style="width:90%;" id="UDN">
-                              <option selected hidden value="0">Sucursal</option>
+                              <option selected hidden>Sucursal</option>
                               <option value="Areas Centrales">Areas Centrales</option>
                               <option value="5006">5006</option>
                               <option value="5014">5014</option>
                               <option value="5051">5051</option>
                               <option value="5054">5054</option>
                               <option value="5062">5062</option>
-                          </select><br><span class="spanErrorEstilo error-inputUdn"></span>
+                          </select>
                           </p>
                           <p class="col-md-2">
                             <label for="comentario-contact">Mensaje</label>
                           </p>
                           <p class="col-md-10">
                               <label for="comenta" ></label>
-                              <textarea class="mensaje" id="comenta" name="comenta"  rows="8" col="12" placeholder="Escribe tu mensaje aquí..." style="width:90%;"></textarea><br><span class="spanErrorEstilo error-inputMensaje"  ></span>
+                              <textarea id="comenta" name="comenta"  rows="8" col="12" placeholder="Escribe tu mensaje aquí..." style="width:90%;"></textarea>
                           </p>
                           <button action="" class="btn btn-sm btn-outline-secondary btn-primary Contacto botonesGeneral" id="enviar" type="button" class="btn btn-outline-success">Enviar</button>
                       </form>
@@ -100,7 +100,7 @@
       <div class="row content">
             <div class="col-sm-12">
                 <nav class="pie">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light ">                           
 
                        <ul class="navbar-nav">
                          <li>
@@ -111,13 +111,13 @@
                            </li>
                            <li class="nav-item">
                               <a class="nav-link footerYBarraSupGeneral hoverOrange" href="#">Desarrolladores</a>
-                            </li>
+                            </li>           
                            <li class="nav-item active">
                               <a class="nav-link footerYBarraSupGeneral hoverOrange" href="#">Reglas de Uso </a>
                             </li>
                             <li class="nav-item">
                                <a class="nav-link footerYBarraSupGeneral hoverOrange" href="#">Privacidad</a>
-                           </li>
+                           </li>                                                         
                             <li class="nav-item active">
                               <a class="nav-link footerYBarraSupGeneral hoverOrange" href="#">Ayuda </span></a>
                              </li>
@@ -129,7 +129,7 @@
                             </li>
                          </ul>
 
-
+                         
                   </nav>
                   </nav>
               </div>
