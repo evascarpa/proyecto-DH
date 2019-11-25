@@ -43,10 +43,35 @@
 .box11{
   overflow: hidden;
 }
+
+.respIndex{
+  width: 100% !important;
+  height: 78%;
+}
+
+
+@media(max-width:1024px){
+  .box11, .login11, .loginRapido, .login-form{
+    width: 100% !important;
+  margin-left: 0% !important;
+  margin-right: 0%;
+  height:75%;
+  }
+}
+
 .form-control{
   width: 385px !important;
   padding: 0% 0% 0% 0%;
 }
+
+@media(max-width:1024px){
+  .form-control{
+    width: 90% !important;
+  margin-left: 5% !important;
+  margin-right: 5% !important;
+  }
+}
+
 
 .registrateAca{
   margin-left: 15%;
@@ -67,6 +92,12 @@
   margin: 0px;
 }
 
+@media(max-width:1024px){
+  .logo11{
+    display: none;
+  }
+}
+
 .logo11 img{
   height: 170px;
   width: 65%;
@@ -83,14 +114,15 @@
 }
 
 .login11{
-  height: 310px;
+  height: 320px;
   width: 60%;
   float:left;
   margin: 0px;
   font-size: 21px;
   background-color: white;
-
 }
+
+
 .login-form{
   width: 90%;
   padding: 0px;
@@ -105,6 +137,7 @@
   font-size: 15px;
   background-color: white;
 }
+
 .label-text{
   margin-top: 10px;
 }
@@ -503,14 +536,27 @@ div.fotito-de-perfil{
 
   }
 
+  @media(min-width:1042px){
+    .box21{ 
+      padding-top: 40px;
+    }
+  }
+
   .Loguearme{
     color:  white;
     font-family: 'Nanum Gothic', sans-serif;
     font-family: 'Hind', sans-serif;
     font-size: 20px;
     width: 385px !important;
+ }
 
-  }
+ @media(max-width:1024px){
+   .Loguearme{
+    width: 100% !important;
+  margin-left: 0% !important;
+  margin-right: 0%;
+   }
+ }
 
   .recordar{
     color: green;

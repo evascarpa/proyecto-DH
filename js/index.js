@@ -45,10 +45,9 @@ window.addEventListener('load', function(){
 
       /*si todo esta bien , le doy la bienvenida */
       if(!errores){
-        alert("Bienvenido a ClubBP!! :) ");
+        window.location="home.html";
+      }else{
+        window.location.href=index.html;
       }
-
-
   })
-
 })
