@@ -9,7 +9,7 @@ window.addEventListener("load", function(){
       /*tomar los datos del formulario*/
       var nombre=document.querySelector("input.nombre");
       var apellido=document.querySelector("input.apellido");
-      var asunto=document.querySelector("input.asunto");
+     /* var asunto=document.querySelector("input.asunto"); */
       var email=document.querySelector("input.email");
       var udn=document.querySelector("select#UDN");
       var mensaje=document.querySelector("textarea.mensaje");
@@ -17,7 +17,7 @@ window.addEventListener("load", function(){
       /*tomo los span de errores del formulario */
       var errorNombre=document.querySelector(".error-inputNombre");
       var errorApellido=document.querySelector(".error-inputApellido");
-      var errorAsunto=document.querySelector(".error-inputAsunto");
+      /* var errorAsunto=document.querySelector(".error-inputAsunto"); */
       var errorEmail=document.querySelector(".error-inputEmail");
       var errorUdn=document.querySelector(".error-inputUdn");
       var errorMensaje=document.querySelector(".error-inputMensaje");
@@ -50,7 +50,7 @@ window.addEventListener("load", function(){
         apellido.style.border="3px solid rgb(144,197,0)";
       }
 
-
+      /*
       if(asunto.value == ""){
         errorAsunto.innerHTML="Escribi el asunto.";
         asunto.style.border="3px solid rgb(255,153,18)";
@@ -63,9 +63,9 @@ window.addEventListener("load", function(){
         errorAsunto.innerHTML="";
         asunto.style.border="3px solid rgb(144,197,0)";
       }
+      */
 
-
-      expr = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;  /*METODO DE EXPRESION REGULAR PARA VALIDAR FORMATO DE MAIL   LINKS EXPLICATIVOS : http://lineadecodigo.com/javascript/validar-el-email-con-javascript/  Y ACA OTRO LINK: https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_Expressions */
+      expr = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;  
        if(email.value==""){
         errorEmail.innerHTML="Tu Email es obligatorio";
         email.style.border="3px solid rgb(255,153,18)";

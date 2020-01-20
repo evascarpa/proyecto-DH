@@ -16,7 +16,7 @@ window.addEventListener('load', function(){
       var errorContrasenia=document.querySelector(".error-contrasenia");
 
       /*por cada dato voy a validar lo que necesite */
-      expr = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;  /*METODO DE EXPRESION REGULAR PARA VALIDAR FORMATO DE MAIL   LINKS EXPLICATIVOS : http://lineadecodigo.com/javascript/validar-el-email-con-javascript/  Y ACA OTRO LINK: https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_Expressions */
+      expr = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/; 
        if(email.value==""){
         errorEmail.innerHTML="Tu Email es obligatorio";
         email.style.border="3px solid rgb(255,153,18)";
@@ -45,7 +45,7 @@ window.addEventListener('load', function(){
 
       /*si todo esta bien , le doy la bienvenida */
       if(!errores){
-        window.location="home.html";
+        window.location="nuevoPerfil.html";
       }else{
         window.location.href=index.html;
       }
