@@ -1,42 +1,83 @@
-/*CONFIGURACIONES GENERALES*/
+/*CONIGURACIONES GENERALES*/
 
 .hoverOrange:hover{         /*para hacer las letras naranjas cuando mouse*/
-  color: rgb(255,153,18) !important;
+  color:rgb(109,178,81) !important;
+  font-weight: bold;
  }
 
  .botonesGeneral{
    color: white;
-   background-color:rgb(144,197,0) !important;  /*ESTE TONO DE VERDE ESTA TOMADO CON PICK COLOR, ES EL MISMO VERDE EXACTO DEL LOGO QUE HIZO RAQUEL*/
+   background-color:rgb(109,178,81) !important; 
    border-radius: 15px;
  }
 
- .botonesGeneral:hover {        /*para fondo de boton naranja cuando mouse */
-   background-color:rgb(255,153,18) !important;   /*ESTE TONO DE NARANJA ESTA TOMADO CON PICK COLOR, ES EL MISMO NARANJA EXACTO DEL LOGO QUE HIZO RAQUEL*/
+ .botonesGeneral:hover {       
+   background-color:rgb(113, 211, 74) !important; 
  }
 
  .footerYBarraSupGeneral{
    color:black !important;
    font-size: 18px !important;
-   margin-left: 10px;
-   margin-right:10px;
-   padding: 8px;
+   margin-left: 65px;
+   margin-right:65px;
+   padding: 8px;  
+   }
+  
+   .pie{
+     width: 100%;
+     
    }
 
    .spanErrorEstilo{
-    color:rgb(255,153,18); 
+    color:rgb(212,23,23); 
     font-size: 15px;
     font-weight: bold;
    }
 
 
-   footer{
-
-    height: 0px;
-    margin: 0px 0px 0px 0px;     /*todo esto para intentar sacar el espacio vacio que queda abajo del footer, pero no                                     le encontre la vuelta*/
-    padding:  0px 0px 0px 0px;
-    border: 0px 0px 0px 0px;
+.navbar-brand{
+  width: 35%;
+  height: 10%;
+  margin: 0px 0px 0px 0px ;
+  padding: 0px 0px 0px 0px ;
 }
 
+
+.margenNavBar{
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+.buscadorNavBar{
+  width: 70% !important;
+  height: 100%;
+  
+}
+.form-inline{
+  width: 40% !important;
+  
+}
+.botonNavBar{
+  width: 20%;
+  height: 28px !important;
+  padding-top: 0%;
+  color: white;
+   background-color:rgb(109,178,81);
+   border-radius: 6px;
+}
+.botonNavBar:hover{
+  background-color:rgb(113, 211, 74);
+}
+.iconoPerfil{
+  height: 80%;
+  width: 10%;
+  position:relative;
+  margin-left: 0%;
+
+}
+
+.bodyPerfil{
+  overflow-x:hidden;
+}
 
 
 /* .. acá empiezan estilos del index nuevo......*/
@@ -91,6 +132,11 @@
   float:left;
   margin: 0px;
 }
+.logo11 img.imgIndex{
+  width: 80%;
+  height: 80%;
+}
+
 
 @media(max-width:1024px){
   .logo11{
@@ -159,7 +205,7 @@
 }
 .notificaciones article{
   background-color:rgb(224, 247, 224);
-  border:  #9AC00F 0.5px solid;
+  border:  #9AC00F 1px solid;
   height:270px;
   margin-top: 20px;
   padding: 10px;
@@ -171,7 +217,31 @@
 
 
 .chat{
-  margin-top: 75px;
+  
+  margin-top: 35px;
+  border: rgb(109,178,81) solid 1px ;
+  border-radius: 15px;
+  width: fit-content;
+  height: 400px;
+  position: fixed;
+  margin-left: 80%;
+  overflow-y: scroll;  
+}
+
+@media (max-width: 800px){
+  .chat{
+    display: none;
+  }
+  
+} 
+
+
+
+#chat h6{
+  text-align: center;
+}
+.personaChat2 a{
+  color: rgb(109,178,81); 
 }
 
 div.row {
@@ -204,10 +274,12 @@ div.row {
 
 
   #chat{
-    background-color: rgb(224, 247, 224);
+    
+    color: rgb(109,178,81);
+    background-color: white;
     height: 30px;
       width: 100%;
-       box-sizing: border-box;
+      box-sizing: border-box;
       overflow:hidden;
 
 
@@ -271,7 +343,7 @@ width:100%;
  border: none !important;
  margin-bottom: 0px !important;
  padding-bottom: 15px !important;
- background-color: rgb(144,197,0); 
+ background-color: rgb(109,178,81); 
 }
 
 @media(max-width:1024px){
@@ -316,7 +388,9 @@ width:100%;
 
 }
 
-  .noticias .divNoticias {
+  .noticias .divNoticias {    
+
+    background-color: whitesmoke!important;
     border: #9AC00F 1px solid;
     padding: 10px;
     margin: 20px;
@@ -329,21 +403,34 @@ width:100%;
     font-size: 15pt;
     overflow:hidden;
     background-color: rgb(224, 247, 224);
+    border-radius: 15px;
     }
-
+    div.divNoticias a{
+      color: #9AC00F ;
+            
+    }
+    
   .noticias div img{
-      height: 40px;
-      width: 40px;
+      height: 35px;
+      width: 35px;
+      border-radius: 15px;
+      padding: 5px;
   }
+  
 
   @media(max-width: 360px){
    .noticias div{
-width: 95%;      
-    }}
+  width: 90% !important;      
+    }
+   #post  img{
+     width: 60%;
+     height: 30%;
+   }
+  }
 
   #post{
     border: none;
-    margin: 0.5px;
+    margin-bottom: 15px;
     width:100%;
     height: 240px;
     float:left;
@@ -353,10 +440,11 @@ width: 95%;
   #iconos{
     border: none;
     width: 100%;
-    height: 60px;
+    height: 40px;
     margin: 1px;
     overflow:hidden;
   }
+  
 
  
    #meGusta, #compartir, .button{
@@ -388,7 +476,7 @@ width: 95%;
   }
 
   .formulario-contact .row{
-  background-color:rgba(93, 232, 107,0.5);
+  background-color:rgb(222, 241, 227);
   border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
@@ -411,6 +499,107 @@ width: 95%;
     width: 100% !important;
 
   }
+  /*nuevo perfil */
+  .headerDePerfil{
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .divDeImagenDePerfil{
+    
+    border: none;
+    margin: 0.5px;
+    width: 100%;
+  
+    box-sizing: border-box;
+    margin-top: -5%;
+    z-index: 10;
+    margin-left: 40%;
+  }
+
+  .imagenDePerfilNueva{
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  border: 0px solid #000000;
+  margin-bottom: 20px;
+  width: 20%;
+  }
+
+  .imagenDePortada{
+    height: 300px ;
+  }
+
+  .mainPerfilNuevo{
+
+      overflow: hidden;
+      flex-wrap: wrap;
+      display: flex;
+      flex-direction: column;
+      padding-left: 10%;
+       
+  
+  }
+
+  .posteosPerfilNuevo{
+
+      width: 80%;
+      height: 400px;
+      background-color:whitesmoke ; 
+      border:  #9AC00F 1px solid;
+      box-sizing: border-box;
+      float: left;
+      margin: 5px 5px 5px 5px;
+      padding: 10px;
+      border-radius: 15px;
+  
+    }
+
+    .posteosDePerfil{
+      width: 100%;
+      height: 80%;
+      border-radius: 15px;
+      margin-bottom: 15px;
+    }
+
+    .botonmegusta{
+      width: 60%;
+    }
+    
+    @media(min-width:300px){
+      .posteosPerfilNuevo{
+        width: 90%;
+      }
+    }
+
+    @media(min-width:500px - 1000px){
+      .posteosPerfilNuevo{
+        width: 60%;
+        margin-left: 15%;
+      }
+    }
+
+    @media (min-width: 800px) {
+      .posteosPerfilNuevo{
+          width: 30%;
+      }
+  
+      .mainPerfilNuevo{
+          flex-direction: row;
+      }  
+  }  
+  
+  @media (min-width: 1200px){
+      .posteosPerfilNuevo{
+          width: 30% ;
+          
+      }
+  }
+  
+  
+
+    
 
   /*----------aca empieza el perfil----------*/
 
@@ -466,12 +655,13 @@ div.fotito-de-perfil{
   div .posteos .img{
       width: 220px;
       height: 220px;
+      border-radius: 15px;
 
 
   }
   #posteos{
     margin-top: 10px;
-    border: #9AC00F 1px solid;
+    border: #9AC00F 4px solid;
     padding: 10px;
     margin: 20px;
     box-sizing: border-box 100px;
@@ -483,6 +673,7 @@ div.fotito-de-perfil{
     font-size: 15pt;
     overflow:hidden;
     background-color: rgb(224, 247, 224);
+    border-radius: 15px;
   
 
 
@@ -547,7 +738,7 @@ div.fotito-de-perfil{
     font-family: 'Nanum Gothic', sans-serif;
     font-family: 'Hind', sans-serif;
     text-align: center;
-    color: rgb(144,197,0);
+    color: rgb(109,178,81);
     /*text-shadow: 5px 3px  #9AC00F;*/
 
   }
@@ -637,7 +828,7 @@ div.fotito-de-perfil{
     padding-right: 0px;
   }
   .faq{
-    background-image: url(../imagenes/fondo2ab.png);
+   /* background-image: url(../imagenes/fondo2ab.png);   fonde verde oscuro polemico de Raquel*/ 
     background-size: cover;
     width: 100%;
 
@@ -663,7 +854,7 @@ div.fotito-de-perfil{
     border: 1px solid;
     border-radius: 10px;
     padding: 10px;
-    background-color: rgba(154, 192, 15, 0.4);
+    background-color: lightgray;
   }
   .flecha img{
     height: 30px;
@@ -733,7 +924,7 @@ div.fotito-de-perfil{
     width: 90%;
   }
   .formulario-registro .row{
-  background-color:rgba(93, 232, 107,0.5);
+  background-color:rgb(222, 241, 227);
   border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
